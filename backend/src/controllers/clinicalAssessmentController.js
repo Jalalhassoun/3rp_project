@@ -2,8 +2,10 @@ import { apiError, ok, sendError } from '../utils/http.js';
 import {
   CERVICAL_SCHEMA_VERSION,
   ELBOW_SCHEMA_VERSION,
+  HIP_SCHEMA_VERSION,
   LUMBAR_SCHEMA_VERSION,
   SHOULDER_SCHEMA_VERSION,
+  WRIST_SCHEMA_VERSION,
   validateAssessmentData,
   validateAssessmentMetadata,
 } from '../services/clinicalAssessmentService.js';
@@ -44,7 +46,7 @@ export function medicalRecordHasRegion(subjective, bodyRegion) {
   const primaryRegion = subjective.primary_pain_location
   const chartRegions = Array.isArray(subjective.pain_locations) ? subjective.pain_locations : []
   const primaryKey = { cervical:'cervical_spine', lumbar:'lumbar_spine' }[bodyRegion] || bodyRegion
-  const chartKey = { cervical:'neck', lumbar:'lower_back' }[bodyRegion] || bodyRegion
+  const chartKey = { cervical:'neck', lumbar:'lower_back', wrist:'wrist_hand' }[bodyRegion] || bodyRegion
   return primaryRegion === primaryKey || chartRegions.some((region) => (
     region === chartKey || String(region).endsWith(`_${chartKey}`)
   ))
@@ -54,6 +56,8 @@ function assessmentSchemaVersion(bodyRegion) {
   if (bodyRegion === 'shoulder') return SHOULDER_SCHEMA_VERSION
   if (bodyRegion === 'elbow') return ELBOW_SCHEMA_VERSION
   if (bodyRegion === 'cervical') return CERVICAL_SCHEMA_VERSION
+  if (bodyRegion === 'wrist') return WRIST_SCHEMA_VERSION
+  if (bodyRegion === 'hip') return HIP_SCHEMA_VERSION
   return LUMBAR_SCHEMA_VERSION
 }
 
