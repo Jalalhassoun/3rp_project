@@ -13,6 +13,10 @@ import ShoulderAssessment from './features/clinical-assessments/shoulder/Shoulde
 import ElbowAssessment from './features/clinical-assessments/elbow/ElbowAssessment.jsx'
 import NeckAssessment from './features/clinical-assessments/neck/NeckAssessment.jsx'
 import LumbarAssessment from './features/clinical-assessments/lumbar/LumbarAssessment.jsx'
+import WristAssessment from './features/clinical-assessments/wrist/WristAssessment.jsx'
+import HipAssessment from './features/clinical-assessments/hip/HipAssessment.jsx'
+import KneeAssessment from './features/clinical-assessments/knee/KneeAssessment.jsx'
+import AnkleAssessment from './features/clinical-assessments/ankle/AnkleAssessment.jsx'
 import RoleRoute from './components/RoleRoute.jsx'
 import './pages/dashboards/Dashboard.css'
 
@@ -30,6 +34,10 @@ function App() {
       <Route path="/physiotherapist/patients/:patientId/assessments/elbow/:assessmentId" element={<RoleRoute allowedRoles={['physiotherapist']}><ElbowAssessment /></RoleRoute>} />
       <Route path="/physiotherapist/patients/:patientId/assessments/cervical/:assessmentId" element={<RoleRoute allowedRoles={['physiotherapist']}><NeckAssessment /></RoleRoute>} />
       <Route path="/physiotherapist/patients/:patientId/assessments/lumbar/:assessmentId" element={<RoleRoute allowedRoles={['physiotherapist']}><LumbarAssessment /></RoleRoute>} />
+      <Route path="/physiotherapist/patients/:patientId/assessments/wrist/:assessmentId" element={<RoleRoute allowedRoles={['physiotherapist']}><WristAssessment /></RoleRoute>} />
+      <Route path="/physiotherapist/patients/:patientId/assessments/hip/:assessmentId" element={<RoleRoute allowedRoles={['physiotherapist']}><HipAssessment /></RoleRoute>} />
+      <Route path="/physiotherapist/patients/:patientId/assessments/knee/:assessmentId" element={<RoleRoute allowedRoles={['physiotherapist']}><KneeAssessment /></RoleRoute>} />
+      <Route path="/physiotherapist/patients/:patientId/assessments/ankle/:assessmentId" element={<RoleRoute allowedRoles={['physiotherapist']}><AnkleAssessment /></RoleRoute>} />
       <Route path="/physiotherapist/patients/:patientId/assessments/:assessmentId" element={<RoleRoute allowedRoles={['physiotherapist']}><ShoulderAssessment /></RoleRoute>} />
       <Route
         path="/physiotherapist/dashboard"

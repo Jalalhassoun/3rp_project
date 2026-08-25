@@ -29,7 +29,7 @@ function selectedMedicalRegions(medicalRecord) {
   )).map((region) => region.key))
 }
 function assessmentName(assessment) {
-  const names={shoulder:{label:'Shoulder',labelAr:'الكتف'},elbow:{label:'Elbow',labelAr:'المرفق'},cervical:{label:'Neck / Cervical Spine',labelAr:'الرقبة / العمود الفقري العنقي'},lumbar:{label:'Lumbar Spine',labelAr:'العمود الفقري القطني'}}
+  const names={shoulder:{label:'Shoulder',labelAr:'الكتف'},elbow:{label:'Elbow',labelAr:'المرفق'},cervical:{label:'Neck / Cervical Spine',labelAr:'الرقبة / العمود الفقري العنقي'},lumbar:{label:'Lumbar Spine',labelAr:'العمود الفقري القطني'},wrist:{label:'Wrist',labelAr:'Wrist'}}
   const name=names[assessment.body_region]||{label:assessment.body_region,labelAr:assessment.body_region}
   return {
     label: assessment.parent_assessment_id?`${name.label} Reassessment`:`${name.label} Assessment`,

@@ -10,7 +10,7 @@ export const bodyRegions = primaryPainAreaOptions.map(([sourceKey,label,labelAr]
   chartKey: chartRegionKey[sourceKey] || sourceKey,
   label: regionDisplay[sourceKey]?.[0] || label,
   labelAr: regionDisplay[sourceKey]?.[1] || labelAr,
-  available: ['shoulder','elbow','cervical_spine','lumbar_spine'].includes(sourceKey),
+  available: ['shoulder','elbow','hip','knee','ankle','cervical_spine','lumbar_spine','wrist'].includes(sourceKey),
 }))
 
 export const assessmentRegistry = {
@@ -52,6 +52,46 @@ export const assessmentRegistry = {
     labelAr: 'تقييم العمود الفقري القطني',
     route(patientId, assessmentId) {
       return `/physiotherapist/patients/${patientId}/assessments/lumbar/${assessmentId}`
+    },
+  },
+  wrist: {
+    bodyRegion: 'wrist',
+    assessmentType: 'wrist_quick_assessment',
+    schemaVersion: 1,
+    label: 'Wrist Clinical Assessment',
+    labelAr: 'Wrist Clinical Assessment',
+    route(patientId, assessmentId) {
+      return `/physiotherapist/patients/${patientId}/assessments/wrist/${assessmentId}`
+    },
+  },
+  hip: {
+    bodyRegion: 'hip',
+    assessmentType: 'hip_pelvis_quick_assessment',
+    schemaVersion: 1,
+    label: 'Hip / Pelvis Clinical Assessment',
+    labelAr: 'Hip / Pelvis Clinical Assessment',
+    route(patientId, assessmentId) {
+      return `/physiotherapist/patients/${patientId}/assessments/hip/${assessmentId}`
+    },
+  },
+  knee: {
+    bodyRegion: 'knee',
+    assessmentType: 'knee_thigh_quick_assessment',
+    schemaVersion: 1,
+    label: 'Knee / Thigh Clinical Assessment',
+    labelAr: 'Knee / Thigh Clinical Assessment',
+    route(patientId, assessmentId) {
+      return `/physiotherapist/patients/${patientId}/assessments/knee/${assessmentId}`
+    },
+  },
+  ankle: {
+    bodyRegion: 'ankle',
+    assessmentType: 'ankle_foot_toes_quick_assessment',
+    schemaVersion: 1,
+    label: 'Ankle / Foot / Toes Clinical Assessment',
+    labelAr: 'Ankle / Foot / Toes Clinical Assessment',
+    route(patientId, assessmentId) {
+      return `/physiotherapist/patients/${patientId}/assessments/ankle/${assessmentId}`
     },
   },
 }

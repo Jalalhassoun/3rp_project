@@ -3,6 +3,8 @@ import {
   CERVICAL_SCHEMA_VERSION,
   ELBOW_SCHEMA_VERSION,
   HIP_SCHEMA_VERSION,
+  KNEE_SCHEMA_VERSION,
+  ANKLE_SCHEMA_VERSION,
   LUMBAR_SCHEMA_VERSION,
   SHOULDER_SCHEMA_VERSION,
   WRIST_SCHEMA_VERSION,
@@ -58,6 +60,8 @@ function assessmentSchemaVersion(bodyRegion) {
   if (bodyRegion === 'cervical') return CERVICAL_SCHEMA_VERSION
   if (bodyRegion === 'wrist') return WRIST_SCHEMA_VERSION
   if (bodyRegion === 'hip') return HIP_SCHEMA_VERSION
+  if (bodyRegion === 'knee') return KNEE_SCHEMA_VERSION
+  if (bodyRegion === 'ankle') return ANKLE_SCHEMA_VERSION
   return LUMBAR_SCHEMA_VERSION
 }
 

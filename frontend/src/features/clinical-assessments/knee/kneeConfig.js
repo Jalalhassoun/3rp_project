@@ -1,0 +1,26 @@
+const item=(key,label,labelAr=label)=>({key,label,labelAr})
+export const kneeSteps=[item('inspection','Inspection'),item('gait','Gait Analysis'),item('palpation','Palpation — Knee & Thigh'),item('articular','Articular Assessment — Knee'),item('patellar','Patellar / Effusion / Mobility'),item('mensuration','Mensuration'),item('muscular','Muscular Assessment / MMT'),item('specialTests','Ligament / Meniscus / Tendon Tests'),item('neurological','Neurological Assessment'),item('functional','Functional & Sport Assessment'),item('outcomeMeasure','Outcome Measures'),item('redFlags','Red Flags'),item('clinicalReasoning','Quick Clinical Reasoning')]
+export const inspection=[item('alignment','Knee alignment'),item('swelling','Swelling / effusion'),item('bruising','Bruising'),item('atrophy','Quadriceps atrophy'),item('deformity','Deformity'),item('scar','Scar'),item('protective_posture','Protective posture')]
+export const gait=[item('antalgic','Antalgic gait'),item('reduced_stance','Reduced stance time'),item('varus_thrust','Varus thrust'),item('valgus_collapse','Dynamic valgus'),item('reduced_flexion','Reduced knee flexion'),item('assistive_device','Assistive device')]
+export const palpationGroups=[{label:'Knee',items:[item('joint_line_medial','Medial joint line'),item('joint_line_lateral','Lateral joint line'),item('patella','Patella'),item('patellar_tendon','Patellar tendon'),item('quadriceps_tendon','Quadriceps tendon'),item('mcl','MCL'),item('lcl','LCL'),item('pes_anserine','Pes anserine'),item('fibular_head','Fibular head')]},{label:'Thigh / Soft Tissue',items:[item('quadriceps','Quadriceps'),item('hamstrings','Hamstrings'),item('it_band','IT band'),item('vmo','VMO'),item('popliteus','Popliteus'),item('calf','Calf')] }]
+export const movements=[item('flexion','Flexion'),item('extension','Extension')]
+export const patellarMeasures=[item('patellar_mobility','Patellar mobility'),item('patellar_tilt','Patellar tilt'),item('effusion_sweep','Sweep / bulge sign'),item('ballottement','Patellar ballottement'),item('patellar_tracking','Patellar tracking / J-sign'),item('accessory_mobility','Tibiofemoral accessory mobility')]
+export const muscles=[item('quadriceps','Quadriceps'),item('vmo','VMO'),item('hamstrings','Hamstrings'),item('hip_abductors','Hip abductors'),item('hip_external_rotators','Hip external rotators'),item('calf','Calf'),item('tibialis_anterior','Tibialis anterior')]
+export const muscleLength=[item('quadriceps','Quadriceps / Ely'),item('hamstrings','Hamstrings / 90–90'),item('calf','Gastrocnemius / soleus'),item('it_band','IT band / Ober'),item('hip_flexors','Hip flexors')]
+export const specialGroups={
+ acl:{label:'ACL Testing',tests:[item('lachman','Lachman Test'),item('anterior_drawer','Anterior Drawer'),item('pivot_shift','Pivot Shift')]},
+ pcl:{label:'PCL Testing',tests:[item('posterior_drawer','Posterior Drawer'),item('posterior_sag','Posterior Sag Sign'),item('quadriceps_active','Quadriceps Active Test')]},
+ mcl:{label:'MCL Testing',tests:[item('valgus_0','Valgus Stress 0 deg'),item('valgus_30','Valgus Stress 30 deg')]},
+ lcl:{label:'LCL Testing',tests:[item('varus_0','Varus Stress 0 deg'),item('varus_30','Varus Stress 30 deg')]},
+ meniscus:{label:'Meniscus Testing',tests:[item('mcmurray','McMurray'),item('thessaly_5','Thessaly 5 deg'),item('thessaly_20','Thessaly 20 deg'),item('joint_line_tenderness','Joint Line Tenderness'),item('apley_compression','Apley Compression'),item('apley_distraction','Apley Distraction')]},
+ patellofemoral:{label:'Patellofemoral / Instability',tests:[item('apprehension','Patellar Apprehension'),item('grind','Patellar Compression / Grind'),item('clarke','Clarke Sign'),item('j_sign','J-sign'),item('patellar_mobility','Patellar Mobility')]},
+ tendon:{label:'Patellar / Quadriceps Tendinopathy',tests:[item('patellar_palpation','Patellar Tendon Palpation'),item('resisted_extension','Resisted Knee Extension'),item('decline_squat','Single-leg Decline Squat'),item('quadriceps_palpation','Quadriceps Tendon Palpation')]},
+ soft_tissue:{label:'IT Band / Pes Anserine / Proximal Tibiofibular',tests:[item('noble','Noble Compression'),item('ober','Ober Test'),item('pes_anserine','Pes Anserine Testing'),item('proximal_tibfib','Proximal Tibiofibular Joint')]},
+}
+export const specialPathways=Object.entries(specialGroups).map(([key,group])=>item(key,group.label))
+export const sensory=[item('l2','L2'),item('l3','L3'),item('l4','L4'),item('l5','L5'),item('s1','S1')]
+export const myotomes=[item('l2_3','L2–L3 hip flexion'),item('l3_4','L3–L4 knee extension'),item('l4','L4 ankle dorsiflexion'),item('l5','L5 great toe extension'),item('s1','S1 plantarflexion')]
+export const reflexes=[item('patellar','Patellar (L3–L4)'),item('achilles','Achilles (S1–S2)')]
+export const neurodynamic=[item('slr','SLR'),item('slump','Slump'),item('femoral_nerve','Femoral nerve stretch')]
+export const activities=[item('walking','Walking'),item('stairs','Stairs'),item('sitting','Prolonged sitting'),item('squat','Squat'),item('kneeling','Kneeling'),item('transfers','Sit-to-stand')]
+export const movementTests=[item('squat','Squat'),item('single_leg_squat','Single-leg squat'),item('step_down','Step Down'),item('single_leg_hop','Single-leg hop')]

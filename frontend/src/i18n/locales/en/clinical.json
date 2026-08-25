@@ -78,6 +78,34 @@
     "left": "Left Side",
     "bilateral": "Bilateral"
   },
+  "wrist": {
+    "title": "Wrist Clinical Assessment",
+    "subtitle": "A structured wrist, hand, thumb, and fingers assessment using the shared clinical assessment workflow.",
+    "right": "Right Wrist",
+    "left": "Left Wrist",
+    "bilateral": "Both Wrists"
+  },
+  "hip": {
+    "title": "Hip / Pelvis Clinical Assessment",
+    "subtitle": "A structured hip and pelvis assessment using the shared clinical assessment workflow.",
+    "right": "Right Hip",
+    "left": "Left Hip",
+    "bilateral": "Both Hips"
+  },
+  "knee": {
+    "title": "Knee / Thigh Clinical Assessment",
+    "subtitle": "A structured knee and thigh assessment using the shared clinical assessment workflow.",
+    "right": "Right Knee",
+    "left": "Left Knee",
+    "bilateral": "Both Knees"
+  },
+  "ankle": {
+    "title": "Ankle / Foot / Toes Clinical Assessment",
+    "subtitle": "A structured ankle, foot, and toes assessment using the shared clinical assessment workflow.",
+    "right": "Right Ankle",
+    "left": "Left Ankle",
+    "bilateral": "Both Ankles"
+  },
   "assessment": {
     "role": "Doctor clinical assessment",
     "title": "Shoulder Clinical Assessment",

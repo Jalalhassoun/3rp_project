@@ -1,0 +1,27 @@
+import { BooleanChoice, ChoiceButtons, DualLabel, FindingCard, MultiCheck, NotesField, NumberField } from '../../components/AssessmentControls.jsx'
+import { accessoryMobility, fingerMovements, inspectionFindings, palpationFindings, palpationGroups, thumbMovements, wristMovements } from '../wristConfig.js'
+
+const tenderness=['0','1','2','3'].map((key)=>({key,label:key,labelAr:key}))
+const mobilityOptions=[{key:'hypomobile',label:'Hypomobile',labelAr:'Hypomobile'},{key:'normal',label:'Normal',labelAr:'Normal'},{key:'hypermobile',label:'Hypermobile',labelAr:'Hypermobile'}]
+const endFeelOptions=[{key:'normal',label:'Normal',labelAr:'Normal'},{key:'firm',label:'Firm',labelAr:'Firm'},{key:'hard',label:'Hard',labelAr:'Hard'},{key:'empty',label:'Empty',labelAr:'Empty'},{key:'pain_limited',label:'Pain-limited',labelAr:'Pain-limited'}]
+
+function RomGroup({title,movements,values,onUpdate}){
+  function finding(key){return values[key]||{arom:'',prom:'',pain:null,limitation:null}}
+  return <section className="clinical-subsection"><DualLabel as="h3" label={title} labelAr={title}/><div className="rom-grid">{movements.map((movement)=>{const current=finding(movement.key);return <article className="rom-card" key={movement.key}><DualLabel as="h4" label={movement.label} labelAr={movement.labelAr}/><div className="rom-card__numbers"><NumberField label="AROM" labelAr="AROM" min="0" max="360" suffix="deg" value={current.arom} onChange={(next)=>onUpdate(movement.key,'arom',next)}/><NumberField label="PROM" labelAr="PROM" min="0" max="360" suffix="deg" value={current.prom} onChange={(next)=>onUpdate(movement.key,'prom',next)}/></div><div className="rom-card__flags"><BooleanChoice label="Pain" labelAr="Pain" value={current.pain} onChange={(next)=>onUpdate(movement.key,'pain',next)}/><BooleanChoice label="Limitation" labelAr="Limitation" value={current.limitation} onChange={(next)=>onUpdate(movement.key,'limitation',next)}/></div></article>})}</div></section>
+}
+
+export function InspectionSection({value,onChange}){
+  return <div className="assessment-section__body"><MultiCheck label="Inspection" labelAr="Inspection" options={inspectionFindings} value={value.staticFindings} onChange={(staticFindings)=>onChange({...value,staticFindings})}/><NotesField value={value.notes} onChange={(notes)=>onChange({...value,notes})}/></div>
+}
+
+export function PalpationSection({value,onChange}){
+  function toggle(key,active){const regions={...value.regions};if(active)regions[key]={tenderness:'',findings:[]};else delete regions[key];onChange({...value,regions})}
+  function update(key,field,next){onChange({...value,regions:{...value.regions,[key]:{...value.regions[key],[field]:next}}})}
+  return <div className="assessment-section__body">{palpationGroups.map((group)=><section className="clinical-subsection" key={group.label}><DualLabel as="h3" label={group.label} labelAr={group.labelAr}/><div className="clinical-finding-grid">{group.items.map((item)=>{const finding=value.regions[item.key];return <FindingCard item={item} key={item.key} active={Boolean(finding)} onToggle={(active)=>toggle(item.key,active)}>{finding&&<div className="clinical-finding-controls"><ChoiceButtons label="Tenderness" labelAr="Tenderness" options={tenderness} value={String(finding.tenderness??'')} onChange={(next)=>update(item.key,'tenderness',next===''?'':Number(next))}/><MultiCheck label="Findings" labelAr="Findings" options={palpationFindings} value={finding.findings} onChange={(findings)=>update(item.key,'findings',findings)}/></div>}</FindingCard>})}</div></section>)}<NotesField value={value.notes} onChange={(notes)=>onChange({...value,notes})}/></div>
+}
+
+export function ArticularSection({value,onChange}){
+  function updateGroup(group,key,field,next){onChange({...value,[group]:{...value[group],movements:{...value[group].movements,[key]:{...(value[group].movements[key]||{arom:'',prom:'',pain:null,limitation:null}),[field]:next}}}})}
+  function updateAccessory(key,next){onChange({...value,wrist:{...value.wrist,accessoryMobility:{...value.wrist.accessoryMobility,[key]:next}}})}
+  return <div className="assessment-section__body"><RomGroup title="Wrist Articular Assessment" movements={wristMovements} values={value.wrist.movements} onUpdate={(key,field,next)=>updateGroup('wrist',key,field,next)}/><ChoiceButtons label="Wrist End Feel" labelAr="Wrist End Feel" value={value.wrist.endFeel} onChange={(endFeel)=>onChange({...value,wrist:{...value.wrist,endFeel}})} options={endFeelOptions}/><section className="clinical-subsection"><DualLabel as="h3" label="Accessory Mobility" labelAr="Accessory Mobility"/><div className="clinical-finding-grid">{accessoryMobility.map((item)=><ChoiceButtons key={item.key} label={item.label} labelAr={item.labelAr} value={value.wrist.accessoryMobility[item.key]||''} onChange={(next)=>updateAccessory(item.key,next)} options={mobilityOptions}/>)}</div></section><RomGroup title="Thumb Articular Assessment" movements={thumbMovements} values={value.thumb.movements} onUpdate={(key,field,next)=>updateGroup('thumb',key,field,next)}/><RomGroup title="Fingers Articular Assessment" movements={fingerMovements} values={value.fingers.movements} onUpdate={(key,field,next)=>updateGroup('fingers',key,field,next)}/><NotesField label="Articular Notes" labelAr="Articular Notes" value={value.wrist.notes||''} onChange={(notes)=>onChange({...value,wrist:{...value.wrist,notes}})}/></div>
+}
