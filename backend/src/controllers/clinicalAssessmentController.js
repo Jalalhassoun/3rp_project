@@ -26,12 +26,16 @@ async function authorizedPatient(req, patientId) {
   return profileResult.data;
 }
 
-async function validateAppointment(req, patientId, appointmentId) {
-  if (!appointmentId) return null;
-  const result = await req.db.from('appointments').select('id').eq('id', appointmentId)
+async function validateAppointment(req, patientId, appointmentId, { required = false, statuses = null } = {}) {
+  if (!appointmentId) {
+    if (required) throw apiError('A treatment session is required for a reassessment', 400);
+    return null;
+  }
+  const result = await req.db.from('appointments').select('id,status').eq('id', appointmentId)
     .eq('patient_id', patientId).eq('physiotherapist_id', req.auth.user.id).maybeSingle();
   if (result.error) throw result.error;
   if (!result.data) throw apiError('The selected session is not available for this assessment', 400);
+  if (statuses && !statuses.includes(result.data.status)) throw apiError('Reassessments can only be performed from a confirmed or completed treatment session', 409);
   return appointmentId;
 }
 
@@ -190,9 +194,19 @@ export async function updateAssessment(req, res) {
     }, { completing: requestedStatus === 'completed' });
     const assessmentData = req.body.assessment_data ?? current.data.assessment_data;
     validateAssessmentData(current.data.body_region, assessmentData, { completed: requestedStatus === 'completed' });
-    const appointmentId = req.body.appointment_id === undefined
-      ? current.data.appointment_id
-      : await validateAppointment(req, patient.id, req.body.appointment_id);
+    let appointmentId;
+    if (current.data.parent_assessment_id && current.data.appointment_id) {
+      if (req.body.appointment_id !== undefined && req.body.appointment_id !== current.data.appointment_id) {
+        throw apiError('A reassessment cannot be moved to another treatment session', 409);
+      }
+      appointmentId = current.data.appointment_id;
+    } else {
+      appointmentId = req.body.appointment_id === undefined
+        ? current.data.appointment_id
+        : await validateAppointment(req, patient.id, req.body.appointment_id, current.data.parent_assessment_id
+          ? { statuses: ['confirmed', 'completed'] }
+          : undefined);
+    }
 
     const saved = await req.db.from('clinical_assessments').update({
       affected_side: metadata.side,
@@ -216,16 +230,22 @@ export async function reassess(req, res) {
     if (parent.error) throw parent.error;
     if (!parent.data) throw apiError('Completed assessment not found', 404);
     await assertPatientRegionSelected(req, patient.id, parent.data.body_region);
+    const appointmentId = await validateAppointment(req, patient.id, req.body.appointment_id, {
+      required: true,
+      statuses: ['confirmed', 'completed'],
+    });
 
     const existing = await req.db.from('clinical_assessments').select(assessmentSelect)
-      .eq('parent_assessment_id', parent.data.id).eq('doctor_id', req.auth.user.id).eq('status', 'draft')
+      .eq('appointment_id', appointmentId).eq('body_region', parent.data.body_region)
+      .eq('doctor_id', req.auth.user.id).not('parent_assessment_id', 'is', null)
       .order('updated_at', { ascending: false }).limit(1).maybeSingle();
     if (existing.error) throw existing.error;
-    if (existing.data) return ok(res, existing.data, 'Existing reassessment draft loaded');
+    if (existing.data) return ok(res, existing.data, 'Existing session reassessment loaded');
 
     const inserted = await req.db.from('clinical_assessments').insert({
       patient_id: patient.id,
       doctor_id: req.auth.user.id,
+      appointment_id: appointmentId,
       parent_assessment_id: parent.data.id,
       body_region: parent.data.body_region,
       assessment_type: parent.data.assessment_type,
@@ -239,4 +259,4 @@ export async function reassess(req, res) {
   } catch (error) { return sendError(res, error, 'Unable to start the reassessment'); }
 }
 
-export { assessmentSelect, authorizedPatient };
+export { assessmentSelect, authorizedPatient, validateAppointment };

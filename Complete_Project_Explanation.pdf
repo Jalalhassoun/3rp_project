@@ -1,0 +1,1544 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+2 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+4 0 obj
+<< /Length 2011 >>
+stream
+BT /F2 28 Tf 0.04 0.43 0.38 rg 191.8 690 Td (PHYSIOCARE CLINIC) Tj ET
+BT /F2 20 Tf 0.08 0.29 0.29 rg 171.6 642 Td (Complete Project Explanation) Tj ET
+BT /F1 11 Tf 0.12 0.18 0.20 rg 110.6 587 Td (A code-grounded guide for rebuilding, presenting, and defending the system) Tj ET
+BT /F2 13 Tf 0.04 0.43 0.38 rg 190.6 496 Td (React / Vite  +  Express  +  Supabase) Tj ET
+BT /F1 10 Tf 0.12 0.18 0.20 rg 217.2 450 Td (Generated from the current repository) Tj ET
+BT /F1 9 Tf 0.35 0.42 0.42 rg 204.5 305 Td (Prepared as a university project study document) Tj ET
+BT /F2 18 Tf 0.04 0.43 0.38 rg 48 279 Td (Table of Contents) Tj ET
+0.78 0.84 0.84 RG 0.7 w 48 257 m 564 257 l S
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 247 Td (The page numbers are generated from the final layout. Use the chapter titles as the navigation) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 233.8 Td (map for a presentation or code walkthrough.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 217.60000000000002 Td (1: System at a glance) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 204.90000000000003 Td (2: Rebuilding from an empty folder) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 192.20000000000005 Td (3: Repository structure) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 179.50000000000006 Td (4: Runtime architecture and execution flow) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 166.80000000000007 Td (5: Backend: server, routes, middleware, utilities) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 154.10000000000008 Td (6: Backend services and controllers) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 141.4000000000001 Td (7: Frontend: routing, auth, data fetching, UI) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 128.7000000000001 Td (8: Clinical assessment feature family) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 116.0000000000001 Td (9: Database and migrations) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 103.3000000000001 Td (10: API endpoint catalogue) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 90.6000000000001 Td (11: Security, validation, and error handling) Tj ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 54 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 4 0 R >>
+endobj
+6 0 obj
+<< /Length 2011 >>
+stream
+BT /F2 28 Tf 0.04 0.43 0.38 rg 191.8 690 Td (PHYSIOCARE CLINIC) Tj ET
+BT /F2 20 Tf 0.08 0.29 0.29 rg 171.6 642 Td (Complete Project Explanation) Tj ET
+BT /F1 11 Tf 0.12 0.18 0.20 rg 110.6 587 Td (A code-grounded guide for rebuilding, presenting, and defending the system) Tj ET
+BT /F2 13 Tf 0.04 0.43 0.38 rg 190.6 496 Td (React / Vite  +  Express  +  Supabase) Tj ET
+BT /F1 10 Tf 0.12 0.18 0.20 rg 217.2 450 Td (Generated from the current repository) Tj ET
+BT /F1 9 Tf 0.35 0.42 0.42 rg 204.5 305 Td (Prepared as a university project study document) Tj ET
+BT /F2 18 Tf 0.04 0.43 0.38 rg 48 279 Td (Table of Contents) Tj ET
+0.78 0.84 0.84 RG 0.7 w 48 257 m 564 257 l S
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 247 Td (The page numbers are generated from the final layout. Use the chapter titles as the navigation) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 233.8 Td (map for a presentation or code walkthrough.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 217.60000000000002 Td (1: System at a glance) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 204.90000000000003 Td (2: Rebuilding from an empty folder) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 192.20000000000005 Td (3: Repository structure) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 179.50000000000006 Td (4: Runtime architecture and execution flow) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 166.80000000000007 Td (5: Backend: server, routes, middleware, utilities) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 154.10000000000008 Td (6: Backend services and controllers) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 141.4000000000001 Td (7: Frontend: routing, auth, data fetching, UI) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 128.7000000000001 Td (8: Clinical assessment feature family) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 116.0000000000001 Td (9: Database and migrations) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 103.3000000000001 Td (10: API endpoint catalogue) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 90.6000000000001 Td (11: Security, validation, and error handling) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 54 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 6 0 R >>
+endobj
+8 0 obj
+<< /Length 5163 >>
+stream
+0.04 0.43 0.38 rg 48 752 516 2 re f
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 724 Td (12: Testing and quality checks) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 711.3 Td (13: Important programming concepts) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 698.5999999999999 Td (14: Project defense questions and answers) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 685.8999999999999 Td (15: How to rebuild this project from scratch) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 673.1999999999998 Td (16: Final architecture summary) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 660.4999999999998 Td (Appendix: Important file inventory) Tj ET
+BT /F2 18 Tf 0.04 0.43 0.38 rg 48 631.7999999999997 Td (1. System at a Glance) Tj ET
+0.78 0.84 0.84 RG 0.7 w 48 609.7999999999997 m 564 609.7999999999997 l S
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 599.7999999999997 Td (PhysioCare Clinic is a role-aware physiotherapy platform. Patients register, complete a) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 586.5999999999997 Td (medical intake, browse gender-aware clinician availability, book appointments, and view their) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 573.3999999999996 Td (recovery journey. Physiotherapists manage availability, appointments, session evaluations,) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 560.1999999999996 Td (patient clinical profiles, and region-specific assessments. An administrator manages) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 546.9999999999995 Td (clinicians, patients, assignments, and operational dashboards.) Tj ET
+BT /F2 13 Tf 0.08 0.29 0.29 rg 48 524.7999999999995 Td (Confirmed technology stack) Tj ET
+BT /F1 9.1 Tf 0.12 0.18 0.20 rg 48 507.7999999999995 Td (- Frontend: React 19 with Vite 8, React Router, Axios, i18next/react-i18next, and CSS) Tj ET
+BT /F1 9.1 Tf 0.12 0.18 0.20 rg 48 494.6999999999995 Td (  files organized beside pages and feature families.) Tj ET
+BT /F1 9.1 Tf 0.12 0.18 0.20 rg 48 481.59999999999945 Td (- Backend: Node.js ES modules, Express 5, CORS, dotenv, Multer, and the Supabase) Tj ET
+BT /F1 9.1 Tf 0.12 0.18 0.20 rg 48 468.49999999999943 Td (  JavaScript client.) Tj ET
+BT /F1 9.1 Tf 0.12 0.18 0.20 rg 48 455.3999999999994 Td (- Data and identity: Supabase Auth plus PostgreSQL tables, row-level security policies,) Tj ET
+BT /F1 9.1 Tf 0.12 0.18 0.20 rg 48 442.2999999999994 Td (  SQL functions, indexes, and private Storage objects.) Tj ET
+BT /F1 9.1 Tf 0.12 0.18 0.20 rg 48 429.19999999999936 Td (- Testing: Node built-in test runner for backend behavior and Vitest-style frontend test) Tj ET
+BT /F1 9.1 Tf 0.12 0.18 0.20 rg 48 416.09999999999934 Td (  files consumed by the project tooling.) Tj ET
+BT /F2 13 Tf 0.08 0.29 0.29 rg 48 393.9999999999993 Td (Architecture diagram) Tj ET
+0.95 0.97 0.97 rg 44 222.99999999999932 524 158 re f
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 374.9999999999993 Td (User browser) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 362.79999999999933 Td (  | React routes and components) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 350.59999999999934 Td (  | Axios requests with bearer token) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 338.39999999999935 Td (  v) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 326.19999999999936 Td (Express app \(backend/src/app.js\)) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 313.9999999999994 Td (  | route middleware -> controller -> service) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 301.7999999999994 Td (  | Supabase publishable client or service-role client) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 289.5999999999994 Td (  v) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 277.3999999999994 Td (Supabase Auth + PostgreSQL + private Storage) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 265.1999999999994 Td (  | JSON response / signed URL) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 252.99999999999943 Td (  v) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 240.79999999999944 Td (React state update -> rerender -> bilingual UI) Tj ET
+BT /F2 13 Tf 0.08 0.29 0.29 rg 48 215.59999999999945 Td (What is deliberately not claimed) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 198.59999999999945 Td (The repository proves implementation details, not the original author motivation. Where this) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 185.39999999999947 Td (guide discusses why a choice is sensible, it labels the reasoning as an engineering rationale) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 172.19999999999948 Td (inferred from the code.) Tj ET
+BT /F2 18 Tf 0.04 0.43 0.38 rg 48 143.9999999999995 Td (2. Rebuilding from an Empty Folder) Tj ET
+0.78 0.84 0.84 RG 0.7 w 48 121.99999999999949 m 564 121.99999999999949 l S
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 111.99999999999949 Td (The real development order follows the dependencies between the layers. The database contract) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 98.79999999999949 Td (and authentication rules must be available before protected backend operations can be) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 85.59999999999948 Td (reliable, while the frontend can be built against the stable API shapes.) Tj ET
+BT /F1 8 Tf 0.35 0.42 0.42 rg 48 30 Td (PhysioCare Clinic - Complete Project Explanation) Tj ET
+BT /F2 8 Tf 0.35 0.42 0.42 rg 535 30 Td (3) Tj ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 54 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 8 0 R >>
+endobj
+10 0 obj
+<< /Length 4177 >>
+stream
+0.04 0.43 0.38 rg 48 752 516 2 re f
+BT /F2 13 Tf 0.08 0.29 0.29 rg 48 718 Td (Build sequence) Tj ET
+0.95 0.97 0.97 rg 44 547 524 158 re f
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 699 Td (Idea / clinic roles) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 686.8 Td (  -> initialize root workspace) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 674.5999999999999 Td (  -> create backend and frontend packages) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 662.3999999999999 Td (  -> write Supabase migrations in order) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 650.1999999999998 Td (  -> configure Auth and environment variables) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 637.9999999999998 Td (  -> create Express app, clients, middleware, routes) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 625.7999999999997 Td (  -> add domain services and controllers) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 613.5999999999997 Td (  -> create React shell, routes, auth context) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 601.3999999999996 Td (  -> add dashboards, booking, records, assessments) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 589.1999999999996 Td (  -> connect Axios to API and Supabase public config) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 576.9999999999995 Td (  -> add validation, RLS, tests, lint, build) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 564.7999999999995 Td (  -> run and verify the complete clinic) Tj ET
+BT /F2 13 Tf 0.08 0.29 0.29 rg 48 539.5999999999995 Td (Commands a developer would use) Tj ET
+0.95 0.97 0.97 rg 44 404.59999999999945 524 122 re f
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 520.5999999999995 Td (mkdir physio && cd physio) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 508.39999999999947 Td (npm init -y) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 496.1999999999995 Td (mkdir backend frontend supabase) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 483.9999999999995 Td (cd backend && npm init -y) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 471.7999999999995 Td (npm install express cors dotenv multer @supabase/supabase-js) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 459.5999999999995 Td (npm install -D nodemon) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 447.3999999999995 Td (cd ../frontend && npm create vite@latest . -- --template react) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 435.19999999999953 Td (npm install react-router-dom axios i18next react-i18next @supabase/supabase-js) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 422.99999999999955 Td (cd .. && npm install -D concurrently) Tj ET
+BT /F2 13 Tf 0.08 0.29 0.29 rg 48 397.79999999999956 Td (Why each stage exists) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 380.79999999999956 Td (Root package: Runs both workspaces with concurrently and documents the install/run workflow.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 368.09999999999957 Td (Migrations: Define profiles, scheduling, records, evaluations, assessments, constraints, indexes, and RLS before code queries them.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 355.3999999999996 Td (Backend config: Loads secrets once and creates public or service-role Supabase clients.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 342.6999999999996 Td (Middleware: Authenticates a bearer token, reloads the active profile, and enforces role boundaries.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 329.9999999999996 Td (Services: Keep scheduling mathematics, validation, auth, and domain rules out of route declarations.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 317.2999999999996 Td (React shell: Owns browser routes, auth state, dashboard composition, forms, bilingual labels, and responsive presentation.) Tj ET
+BT /F2 18 Tf 0.04 0.43 0.38 rg 48 288.5999999999996 Td (3. Repository Structure) Tj ET
+0.78 0.84 0.84 RG 0.7 w 48 266.5999999999996 m 564 266.5999999999996 l S
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 256.5999999999996 Td (This tree is derived from the current repository. Generated dependency directories and build) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 243.39999999999964 Td (output are omitted because they are not authored application logic.) Tj ET
+BT /F1 8 Tf 0.35 0.42 0.42 rg 48 30 Td (PhysioCare Clinic - Complete Project Explanation) Tj ET
+BT /F2 8 Tf 0.35 0.42 0.42 rg 535 30 Td (4) Tj ET
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 54 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 10 0 R >>
+endobj
+12 0 obj
+<< /Length 5045 >>
+stream
+0.04 0.43 0.38 rg 48 752 516 2 re f
+0.95 0.97 0.97 rg 44 378 524 350 re f
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 722 Td (physio/) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 709.8 Td (|-- package.json                         root scripts) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 697.5999999999999 Td (|-- README.md                            setup, routes, checks) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 685.3999999999999 Td (|-- backend/) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 673.1999999999998 Td (|   |-- package.json                      backend scripts/dependencies) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 660.9999999999998 Td (|   |-- src/) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 648.7999999999997 Td (|   |   |-- server.js                     process entry point) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 636.5999999999997 Td (|   |   |-- app.js                        Express composition) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 624.3999999999996 Td (|   |   |-- config/                       Supabase clients) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 612.1999999999996 Td (|   |   |-- middleware/                   auth and roles) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 599.9999999999995 Td (|   |   |-- routes/                       URL-to-controller mapping) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 587.7999999999995 Td (|   |   |-- controllers/                  HTTP orchestration) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 575.5999999999995 Td (|   |   |-- services/                     domain rules and assessment validators) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 563.3999999999994 Td (|   |   `-- utils/                        response and validation helpers) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 551.1999999999994 Td (|   `-- test/                             backend behavior tests) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 538.9999999999993 Td (|-- frontend/) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 526.7999999999993 Td (|   |-- index.html, vite.config.js        browser/build entry) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 514.5999999999992 Td (|   `-- src/) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 502.39999999999924 Td (|       |-- main.jsx, App.jsx              React root and route tree) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 490.19999999999925 Td (|       |-- auth/                          provider, context, guards) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 477.99999999999926 Td (|       |-- services/                      Axios and Supabase session bridge) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 465.7999999999993 Td (|       |-- components/                    shared UI primitives) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 453.5999999999993 Td (|       |-- pages/                         auth, dashboards, medical flows) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 441.3999999999993 Td (|       |-- features/clinical-assessments/ region modules and controls) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 429.1999999999993 Td (|       |-- i18n/                           English/Arabic translations) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 416.9999999999993 Td (|       `-- assets/                        images and SVG assets) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 404.79999999999933 Td (|-- supabase/migrations/                  ordered PostgreSQL/RLS changes) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 392.59999999999934 Td (`-- .env files                           ignored local configuration) Tj ET
+BT /F2 13 Tf 0.08 0.29 0.29 rg 48 367.39999999999935 Td (Folder dependency direction) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 350.39999999999935 Td (Routes import middleware and controllers. Controllers import services and Supabase clients.) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 337.19999999999936 Td (Services receive authenticated request context and perform domain work through req.db. React) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 323.9999999999994 Td (pages import shared components, the API service, auth hooks, and feature configuration. SQL) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 310.7999999999994 Td (migrations are deployed separately but define the tables and policies every backend query) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 297.5999999999994 Td (assumes.) Tj ET
+BT /F2 18 Tf 0.04 0.43 0.38 rg 48 269.3999999999994 Td (4. Runtime Architecture and Execution Flow) Tj ET
+0.78 0.84 0.84 RG 0.7 w 48 247.3999999999994 m 564 247.3999999999994 l S
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 237.3999999999994 Td (The application has two processes started by the root dev script. The backend is an HTTP API) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 224.19999999999942 Td (on port 5000 by default; Vite serves the React application on port 5173 unless that port is) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 210.99999999999943 Td (occupied.) Tj ET
+BT /F2 13 Tf 0.08 0.29 0.29 rg 48 188.79999999999944 Td (Backend startup: actual code) Tj ET
+BT /F1 8 Tf 0.35 0.42 0.42 rg 48 30 Td (PhysioCare Clinic - Complete Project Explanation) Tj ET
+BT /F2 8 Tf 0.35 0.42 0.42 rg 535 30 Td (5) Tj ET
+endstream
+endobj
+13 0 obj
+<< /Type /Page /Parent 54 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 12 0 R >>
+endobj
+14 0 obj
+<< /Length 2158 >>
+stream
+0.04 0.43 0.38 rg 48 752 516 2 re f
+0.95 0.97 0.97 rg 44 570 524 158 re f
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 722 Td (   1 | import dotenv from 'dotenv';) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 709.8 Td (   2 | ) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 697.5999999999999 Td (   3 | dotenv.config\(\);) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 685.3999999999999 Td (   4 | ) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 673.1999999999998 Td (   5 | const { default: app } = await import\('./app.js'\);) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 660.9999999999998 Td (   6 | ) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 648.7999999999997 Td (   7 | const PORT = process.env.PORT || 5000;) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 636.5999999999997 Td (   8 | ) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 624.3999999999996 Td (   9 | app.listen\(PORT, \(\) => {) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 612.1999999999996 Td (  10 |   console.log\(`Backend server running on http://localhost:${PORT}`\);) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 599.9999999999995 Td (  11 | }\);) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 587.7999999999995 Td (  12 | ) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 568.5999999999995 Td (Line 1 imports dotenv using an ES module default import. dotenv.config\(\) reads backend/.env) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 555.3999999999994 Td (when the process working directory is backend. The dynamic import waits until environment) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 542.1999999999994 Td (variables exist before loading app.js; this matters because config/supabase.js validates) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 528.9999999999993 Td (SUPABASE_URL and the public key during module initialization. The port uses process.env.PORT) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 515.7999999999993 Td (with 5000 as a fallback, then app.listen keeps the Node process serving requests.) Tj ET
+BT /F2 13 Tf 0.08 0.29 0.29 rg 48 493.5999999999993 Td (Express composition: actual code) Tj ET
+BT /F1 8 Tf 0.35 0.42 0.42 rg 48 30 Td (PhysioCare Clinic - Complete Project Explanation) Tj ET
+BT /F2 8 Tf 0.35 0.42 0.42 rg 535 30 Td (6) Tj ET
+endstream
+endobj
+15 0 obj
+<< /Type /Page /Parent 54 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 14 0 R >>
+endobj
+16 0 obj
+<< /Length 4446 >>
+stream
+0.04 0.43 0.38 rg 48 752 516 2 re f
+0.95 0.97 0.97 rg 44 282 524 446 re f
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 722 Td (   1 | import express from 'express';) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 709.8 Td (   2 | import cors from 'cors';) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 697.5999999999999 Td (   3 | import authRoutes from './routes/authRoutes.js';) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 685.3999999999999 Td (   4 | import testRoutes from './routes/testRoutes.js';) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 673.1999999999998 Td (   5 | import adminRoutes from './routes/adminRoutes.js';) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 660.9999999999998 Td (   6 | import physiotherapistRoutes from './routes/physiotherapistRoutes.js';) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 648.7999999999997 Td (   7 | import medicalRecordRoutes from './routes/medicalRecordRoutes.js';) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 636.5999999999997 Td (   8 | import { appointmentRoutes, physiotherapistDirectory, profileRoutes } from './routes/clinicRoutes.) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 624.3999999999996 Td (   9 | ) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 612.1999999999996 Td (  10 | const app = express\(\);) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 599.9999999999995 Td (  11 | ) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 587.7999999999995 Td (  12 | app.use\() Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 575.5999999999995 Td (  13 |   cors\({) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 563.3999999999994 Td (  14 |     origin: process.env.FRONTEND_URL || 'http://localhost:5173',) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 551.1999999999994 Td (  15 |     credentials: true,) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 538.9999999999993 Td (  16 |   }\),) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 526.7999999999993 Td (  17 | \);) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 514.5999999999992 Td (  18 | ) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 502.39999999999924 Td (  19 | app.use\(express.json\(\)\);) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 490.19999999999925 Td (  20 | app.use\(express.urlencoded\({ extended: true }\)\);) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 477.99999999999926 Td (  21 | ) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 465.7999999999993 Td (  22 | app.get\('/', \(req, res\) => {) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 453.5999999999993 Td (  23 |   res.json\({) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 441.3999999999993 Td (  24 |     message: 'Physiotherapy Clinic API',) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 429.1999999999993 Td (  25 |   }\);) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 416.9999999999993 Td (  26 | }\);) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 404.79999999999933 Td (  27 | ) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 392.59999999999934 Td (  28 | app.use\('/api/auth', authRoutes\);) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 380.39999999999935 Td (  29 | app.use\('/api/test', testRoutes\);) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 368.19999999999936 Td (  30 | app.use\('/api/admin', adminRoutes\);) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 355.9999999999994 Td (  31 | app.use\('/api/physiotherapists', physiotherapistDirectory\);) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 343.7999999999994 Td (  32 | app.use\('/api/appointments', appointmentRoutes\);) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 331.5999999999994 Td (  33 | app.use\('/api/physiotherapist', physiotherapistRoutes\);) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 319.3999999999994 Td (  34 | app.use\('/api/profile', profileRoutes\);) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 307.1999999999994 Td (  35 | app.use\('/api/medical-records', medicalRecordRoutes\);) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 294.99999999999943 Td (  36 | ) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 275.79999999999944 Td (Express creates the app object, CORS is configured with the local frontend origin and) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 262.59999999999945 Td (credentials, JSON/urlencoded parsers decode request bodies, and each /api prefix mounts a) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 249.39999999999947 Td (router. The final middleware returns a consistent JSON 404 rather than an HTML page.) Tj ET
+BT /F2 13 Tf 0.08 0.29 0.29 rg 48 227.19999999999948 Td (Frontend startup) Tj ET
+BT /F1 8 Tf 0.35 0.42 0.42 rg 48 30 Td (PhysioCare Clinic - Complete Project Explanation) Tj ET
+BT /F2 8 Tf 0.35 0.42 0.42 rg 535 30 Td (7) Tj ET
+endstream
+endobj
+17 0 obj
+<< /Type /Page /Parent 54 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 16 0 R >>
+endobj
+18 0 obj
+<< /Length 4077 >>
+stream
+0.04 0.43 0.38 rg 48 752 516 2 re f
+0.95 0.97 0.97 rg 44 498 524 230 re f
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 722 Td (   1 | import { StrictMode } from 'react') Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 709.8 Td (   2 | import { createRoot } from 'react-dom/client') Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 697.5999999999999 Td (   3 | import { BrowserRouter } from 'react-router-dom') Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 685.3999999999999 Td (   4 | import './i18n/index.js') Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 673.1999999999998 Td (   5 | import './index.css') Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 660.9999999999998 Td (   6 | import App from './App.jsx') Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 648.7999999999997 Td (   7 | import { AuthProvider } from './auth/AuthContext.jsx') Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 636.5999999999997 Td (   8 | ) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 624.3999999999996 Td (   9 | createRoot\(document.getElementById\('root'\)\).render\() Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 612.1999999999996 Td (  10 |   <StrictMode>) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 599.9999999999995 Td (  11 |     <BrowserRouter>) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 587.7999999999995 Td (  12 |       <AuthProvider>) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 575.5999999999995 Td (  13 |         <App />) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 563.3999999999994 Td (  14 |       </AuthProvider>) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 551.1999999999994 Td (  15 |     </BrowserRouter>) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 538.9999999999993 Td (  16 |   </StrictMode>,) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 526.7999999999993 Td (  17 | \)) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 514.5999999999992 Td (  18 | ) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 495.39999999999924 Td (createRoot attaches React to the #root element. StrictMode exposes unsafe side effects during) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 482.19999999999925 Td (development; BrowserRouter supplies client-side navigation; AuthProvider initializes Supabase) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 468.99999999999926 Td (session state before protected RoleRoute pages render.) Tj ET
+BT /F2 13 Tf 0.08 0.29 0.29 rg 48 446.7999999999993 Td (One request end-to-end) Tj ET
+0.95 0.97 0.97 rg 44 311.7999999999993 524 122 re f
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 427.7999999999993 Td (Patient clicks Book) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 415.5999999999993 Td (  -> PatientDashboard handler) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 403.3999999999993 Td (  -> Axios POST /api/appointments) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 391.1999999999993 Td (  -> appointmentRoutes auth + patient role middleware) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 378.9999999999993 Td (  -> clinicController.bookAppointment) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 366.79999999999933 Td (  -> availabilityService + Supabase transaction-like checks) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 354.59999999999934 Td (  -> JSON success or conflict/error) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 342.39999999999935 Td (  -> component state update) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 330.19999999999936 Td (  -> calendar / appointment list rerenders) Tj ET
+BT /F2 18 Tf 0.04 0.43 0.38 rg 48 298.9999999999994 Td (5. Backend: Server, Routes, Middleware, Utilities) Tj ET
+0.78 0.84 0.84 RG 0.7 w 48 276.9999999999994 m 564 276.9999999999994 l S
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 266.9999999999994 Td (The backend is intentionally layered. URL declarations stay small; controllers translate HTTP) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 253.7999999999994 Td (into domain calls; services enforce rules that should also be testable without a running) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 240.5999999999994 Td (server.) Tj ET
+BT /F2 13 Tf 0.08 0.29 0.29 rg 48 218.3999999999994 Td (Supabase configuration) Tj ET
+BT /F1 8 Tf 0.35 0.42 0.42 rg 48 30 Td (PhysioCare Clinic - Complete Project Explanation) Tj ET
+BT /F2 8 Tf 0.35 0.42 0.42 rg 535 30 Td (8) Tj ET
+endstream
+endobj
+19 0 obj
+<< /Type /Page /Parent 54 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 18 0 R >>
+endobj
+20 0 obj
+<< /Length 5525 >>
+stream
+0.04 0.43 0.38 rg 48 752 516 2 re f
+0.95 0.97 0.97 rg 44 138 524 590 re f
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 722 Td (   1 | import { createClient } from '@supabase/supabase-js';) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 709.8 Td (   2 | ) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 697.5999999999999 Td (   3 | const supabaseUrl =) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 685.3999999999999 Td (   4 |   process.env.SUPABASE_URL || process.env.NEXT_PUBLIC_SUPABASE_URL;) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 673.1999999999998 Td (   5 | const supabaseKey =) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 660.9999999999998 Td (   6 |   process.env.SUPABASE_PUBLISHABLE_KEY ||) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 648.7999999999997 Td (   7 |   process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY;) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 636.5999999999997 Td (   8 | const serviceRoleKey =) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 624.3999999999996 Td (   9 |   process.env.SUPABASE_SERVICE_ROLE_KEY || process.env.SUPABASE_SECRET_KEY;) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 612.1999999999996 Td (  10 | ) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 599.9999999999995 Td (  11 | if \(!supabaseUrl || !supabaseKey\) {) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 587.7999999999995 Td (  12 |   throw new Error\() Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 575.5999999999995 Td (  13 |     'SUPABASE_URL and SUPABASE_PUBLISHABLE_KEY must be set in backend/.env',) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 563.3999999999994 Td (  14 |   \);) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 551.1999999999994 Td (  15 | }) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 538.9999999999993 Td (  16 | ) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 526.7999999999993 Td (  17 | export function createSupabaseClient\(\) {) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 514.5999999999992 Td (  18 |   return createClient\(supabaseUrl, supabaseKey, {) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 502.39999999999924 Td (  19 |     auth: {) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 490.19999999999925 Td (  20 |       persistSession: false,) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 477.99999999999926 Td (  21 |       autoRefreshToken: false,) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 465.7999999999993 Td (  22 |     },) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 453.5999999999993 Td (  23 |   }\);) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 441.3999999999993 Td (  24 | }) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 429.1999999999993 Td (  25 | ) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 416.9999999999993 Td (  26 | export function getSupabasePublicConfig\(\) {) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 404.79999999999933 Td (  27 |   return {) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 392.59999999999934 Td (  28 |     url: supabaseUrl,) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 380.39999999999935 Td (  29 |     publishableKey: supabaseKey,) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 368.19999999999936 Td (  30 |   };) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 355.9999999999994 Td (  31 | }) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 343.7999999999994 Td (  32 | ) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 331.5999999999994 Td (  33 | export function createAdminClient\(\) {) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 319.3999999999994 Td (  34 |   if \(!serviceRoleKey\) {) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 307.1999999999994 Td (  35 |     throw new Error\() Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 294.99999999999943 Td (  36 |       'SUPABASE_SERVICE_ROLE_KEY or SUPABASE_SECRET_KEY must be set in backend/.env',) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 282.79999999999944 Td (  37 |     \);) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 270.59999999999945 Td (  38 |   }) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 258.39999999999947 Td (  39 | ) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 246.19999999999948 Td (  40 |   return createClient\(supabaseUrl, serviceRoleKey, {) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 233.9999999999995 Td (  41 |     auth: { persistSession: false, autoRefreshToken: false },) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 221.7999999999995 Td (  42 |   }\);) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 209.5999999999995 Td (  43 | }) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 197.39999999999952 Td (  44 | ) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 185.19999999999953 Td (  45 | const supabase = createSupabaseClient\(\);) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 172.99999999999955 Td (  46 | ) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 160.79999999999956 Td (  47 | export default supabase;) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 148.59999999999957 Td (  48 | ) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 129.39999999999958 Td (The module reads SUPABASE_URL, SUPABASE_PUBLISHABLE_KEY, and either SUPABASE_SERVICE_ROLE_KEY) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 116.19999999999958 Td (or SUPABASE_SECRET_KEY. createSupabaseClient creates a non-persistent public client for) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 102.99999999999957 Td (user-authenticated operations. createAdminClient creates the backend-only client used after) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 89.79999999999957 Td (requireAuth reloads a profile. The startup guard prevents a misleading server that cannot) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 76.59999999999957 Td (authenticate or query anything.) Tj ET
+BT /F1 8 Tf 0.35 0.42 0.42 rg 48 30 Td (PhysioCare Clinic - Complete Project Explanation) Tj ET
+BT /F2 8 Tf 0.35 0.42 0.42 rg 535 30 Td (9) Tj ET
+endstream
+endobj
+21 0 obj
+<< /Type /Page /Parent 54 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 20 0 R >>
+endobj
+22 0 obj
+<< /Length 5301 >>
+stream
+0.04 0.43 0.38 rg 48 752 516 2 re f
+BT /F2 13 Tf 0.08 0.29 0.29 rg 48 718 Td (Authentication middleware) Tj ET
+0.95 0.97 0.97 rg 44 247 524 458 re f
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 699 Td (   1 | import { createAdminClient, createSupabaseClient } from '../config/supabase.js';) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 686.8 Td (   2 | ) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 674.5999999999999 Td (   3 | export async function requireAuth\(req, res, next\) {) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 662.3999999999999 Td (   4 |   const authorization = req.get\('authorization'\) || '';) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 650.1999999999998 Td (   5 |   const token = authorization.startsWith\('Bearer '\) ? authorization.slice\(7\) : '';) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 637.9999999999998 Td (   6 |   if \(!token\) return res.status\(401\).json\({ success: false, message: 'Authentication required', er) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 625.7999999999997 Td (   7 | ) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 613.5999999999997 Td (   8 |   try {) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 601.3999999999996 Td (   9 |     const authClient = createSupabaseClient\(\);) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 589.1999999999996 Td (  10 |     const { data: { user }, error } = await authClient.auth.getUser\(token\);) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 576.9999999999995 Td (  11 |     if \(error || !user\) return res.status\(401\).json\({ success: false, message: 'Invalid or expired) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 564.7999999999995 Td (  12 | ) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 552.5999999999995 Td (  13 |     const admin = createAdminClient\(\);) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 540.3999999999994 Td (  14 |     const { data: profile, error: profileError } = await admin) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 528.1999999999994 Td (  15 |       .from\('profiles'\)) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 515.9999999999993 Td (  16 |       .select\('id, first_name, last_name, email, phone, gender, date_of_birth, role, is_active'\)) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 503.79999999999933 Td (  17 |       .eq\('id', user.id\)) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 491.59999999999934 Td (  18 |       .single\(\);) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 479.39999999999935 Td (  19 |     if \(profileError || !profile\) return res.status\(401\).json\({ success: false, message: 'Account ) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 467.19999999999936 Td (  20 |     if \(!profile.is_active\) return res.status\(403\).json\({ success: false, message: 'Account is dis) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 454.9999999999994 Td (  21 | ) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 442.7999999999994 Td (  22 |     req.auth = { token, user, profile };) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 430.5999999999994 Td (  23 |     req.db = admin;) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 418.3999999999994 Td (  24 |     next\(\);) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 406.1999999999994 Td (  25 |   } catch \(error\) {) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 393.99999999999943 Td (  26 |     console.error\(error\);) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 381.79999999999944 Td (  27 |     const missingServerKey = error.message?.includes\('must be set in backend/.env'\);) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 369.59999999999945 Td (  28 |     return res.status\(missingServerKey ? 503 : 500\).json\({) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 357.39999999999947 Td (  29 |       success: false,) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 345.1999999999995 Td (  30 |       message: missingServerKey) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 332.9999999999995 Td (  31 |         ? 'Backend Supabase secret key is not configured') Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 320.7999999999995 Td (  32 |         : 'Unable to authenticate request',) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 308.5999999999995 Td (  33 |       errors: [],) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 296.3999999999995 Td (  34 |     }\);) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 284.19999999999953 Td (  35 |   }) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 271.99999999999955 Td (  36 | }) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 259.79999999999956 Td (  37 | ) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 240.59999999999957 Td (requireAuth extracts only a Bearer token, rejects missing tokens with 401, validates the token) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 227.39999999999958 Td (through Supabase Auth, then uses the admin client to select the active profile. The profile is) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 214.1999999999996 Td (placed on req.auth and the admin client on req.db. This reload is important: a stale browser) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 200.9999999999996 Td (role is not trusted. requireRole is a second, explicit gate that returns 403 when the) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 187.7999999999996 Td (authenticated profile role is not allowed.) Tj ET
+BT /F2 13 Tf 0.08 0.29 0.29 rg 48 165.59999999999962 Td (HTTP utility contract) Tj ET
+BT /F1 8 Tf 0.35 0.42 0.42 rg 48 30 Td (PhysioCare Clinic - Complete Project Explanation) Tj ET
+BT /F2 8 Tf 0.35 0.42 0.42 rg 535 30 Td (10) Tj ET
+endstream
+endobj
+23 0 obj
+<< /Type /Page /Parent 54 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 22 0 R >>
+endobj
+24 0 obj
+<< /Length 5760 >>
+stream
+0.04 0.43 0.38 rg 48 752 516 2 re f
+0.95 0.97 0.97 rg 44 354 524 374 re f
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 722 Td (   1 | export function apiError\(message, statusCode = 400, errors = []\) {) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 709.8 Td (   2 |   const error = new Error\(message\);) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 697.5999999999999 Td (   3 |   error.statusCode = statusCode;) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 685.3999999999999 Td (   4 |   error.errors = errors;) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 673.1999999999998 Td (   5 |   return error;) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 660.9999999999998 Td (   6 | }) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 648.7999999999997 Td (   7 | ) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 636.5999999999997 Td (   8 | export function sendError\(res, error, fallback = 'Operation failed'\) {) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 624.3999999999996 Td (   9 |   const status = error.statusCode || 500;) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 612.1999999999996 Td (  10 |   if \(status >= 500\) console.error\(error\);) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 599.9999999999995 Td (  11 |   return res.status\(status\).json\({) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 587.7999999999995 Td (  12 |     success: false,) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 575.5999999999995 Td (  13 |     message: status >= 500 ? fallback : error.message,) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 563.3999999999994 Td (  14 |     errors: error.errors || [],) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 551.1999999999994 Td (  15 |   }\);) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 538.9999999999993 Td (  16 | }) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 526.7999999999993 Td (  17 | ) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 514.5999999999992 Td (  18 | export function ok\(res, data = {}, message = 'Operation completed successfully', status = 200\) {) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 502.39999999999924 Td (  19 |   return res.status\(status\).json\({ success: true, message, data }\);) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 490.19999999999925 Td (  20 | }) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 477.99999999999926 Td (  21 | ) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 465.7999999999993 Td (  22 | export function required\(body, fields\) {) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 453.5999999999993 Td (  23 |   const missing = fields.filter\(\(field\) => body[field] === undefined || body[field] === null || St) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 441.3999999999993 Td (  24 |   if \(missing.length\) throw apiError\('Required fields are missing', 400, missing.map\(\(field\) => \({) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 429.1999999999993 Td (  25 | }) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 416.9999999999993 Td (  26 | ) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 404.79999999999933 Td (  27 | export function pick\(source, allowed\) {) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 392.59999999999934 Td (  28 |   return Object.fromEntries\(allowed.filter\(\(key\) => source[key] !== undefined\).map\(\(key\) => [key, ) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 380.39999999999935 Td (  29 | }) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 368.19999999999936 Td (  30 | ) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 348.9999999999994 Td (apiError: Creates an Error with an HTTP status and structured field errors.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 336.2999999999994 Td (sendError: Converts thrown errors into { success, message, errors }, logging 5xx failures.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 323.5999999999994 Td (ok: Creates consistent successful JSON responses with data and message.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 310.8999999999994 Td (required: Rejects undefined, null, and blank fields and reports each missing field.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 298.1999999999994 Td (pick: Whitelists update fields so clients cannot mass-assign protected columns.) Tj ET
+BT /F2 13 Tf 0.08 0.29 0.29 rg 48 275.49999999999943 Td (Route map) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 258.49999999999943 Td (/api/auth: Public config, sign-in, sign-up.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 245.79999999999944 Td (/api/test: Supabase connectivity test.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 233.09999999999945 Td (/api/admin: Admin-only dashboard, users, clinicians, assignments.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 220.39999999999947 Td (/api/physiotherapists: Authenticated directory and available slots.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 207.69999999999948 Td (/api/appointments: Patient-only availability, booking, own appointments, recovery, cancel/reschedule.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 194.9999999999995 Td (/api/profile: Authenticated own profile GET/PATCH.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 182.2999999999995 Td (/api/physiotherapist: Clinician profile, hours, time off, appointments, patients, assessments.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 169.5999999999995 Td (/api/medical-records: Patient record, documents, signed URLs, authorized clinician/admin view.) Tj ET
+BT /F2 18 Tf 0.04 0.43 0.38 rg 48 140.89999999999952 Td (6. Backend Services and Controllers) Tj ET
+0.78 0.84 0.84 RG 0.7 w 48 118.89999999999952 m 564 118.89999999999952 l S
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 108.89999999999952 Td (Controllers are the HTTP boundary; services contain rules that are reused by controllers and) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 95.69999999999952 Td (tests. The following are the important flows confirmed by imports and tests.) Tj ET
+BT /F1 8 Tf 0.35 0.42 0.42 rg 48 30 Td (PhysioCare Clinic - Complete Project Explanation) Tj ET
+BT /F2 8 Tf 0.35 0.42 0.42 rg 535 30 Td (11) Tj ET
+endstream
+endobj
+25 0 obj
+<< /Type /Page /Parent 54 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 24 0 R >>
+endobj
+26 0 obj
+<< /Length 1631 >>
+stream
+0.04 0.43 0.38 rg 48 752 516 2 re f
+BT /F2 13 Tf 0.08 0.29 0.29 rg 48 718 Td (Authentication flow) Tj ET
+0.95 0.97 0.97 rg 44 607 524 98 re f
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 699 Td (POST /api/auth/signin) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 686.8 Td (  authController.signIn validates email/password types) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 674.5999999999999 Td (  -> authService.signInUser normalizes email) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 662.3999999999999 Td (  -> Supabase signInWithPassword) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 650.1999999999998 Td (  -> load profiles row and active flag) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 637.9999999999998 Td (  -> return user, session, profile) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 625.7999999999997 Td (  -> frontend stores session through establishSession) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 606.5999999999997 Td (signUpUser rejects the administrator email, stores first/last name and gender in Auth) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 593.3999999999996 Td (metadata, and upserts a profile when Supabase returns an immediate session. signInUser) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 580.1999999999996 Td (distinguishes unconfirmed email, invalid credentials, missing migration tables, inactive) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 566.9999999999995 Td (profiles, and generic failures.) Tj ET
+BT /F2 13 Tf 0.08 0.29 0.29 rg 48 544.7999999999995 Td (Availability and booking) Tj ET
+BT /F1 8 Tf 0.35 0.42 0.42 rg 48 30 Td (PhysioCare Clinic - Complete Project Explanation) Tj ET
+BT /F2 8 Tf 0.35 0.42 0.42 rg 535 30 Td (12) Tj ET
+endstream
+endobj
+27 0 obj
+<< /Type /Page /Parent 54 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 26 0 R >>
+endobj
+28 0 obj
+<< /Length 16943 >>
+stream
+0.04 0.43 0.38 rg 48 752 516 2 re f
+0.95 0.97 0.97 rg 44 -1146 524 1874 re f
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 722 Td (   1 | import { apiError } from '../utils/http.js';) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 709.8 Td (   2 | ) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 697.5999999999999 Td (   3 | export const CLINIC_TIME_ZONE = 'UTC';) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 685.3999999999999 Td (   4 | export const WEEKDAYS = [) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 673.1999999999998 Td (   5 |   'sunday',) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 660.9999999999998 Td (   6 |   'monday',) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 648.7999999999997 Td (   7 |   'tuesday',) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 636.5999999999997 Td (   8 |   'wednesday',) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 624.3999999999996 Td (   9 |   'thursday',) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 612.1999999999996 Td (  10 |   'friday',) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 599.9999999999995 Td (  11 |   'saturday',) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 587.7999999999995 Td (  12 | ];) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 575.5999999999995 Td (  13 | ) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 563.3999999999994 Td (  14 | const DATE_PATTERN = /^\\d{4}-\\d{2}-\\d{2}$/;) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 551.1999999999994 Td (  15 | const ACTIVE_APPOINTMENT_STATUSES = ['pending', 'confirmed'];) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 538.9999999999993 Td (  16 | ) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 526.7999999999993 Td (  17 | export function isIsoDate\(value\) {) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 514.5999999999992 Td (  18 |   if \(!DATE_PATTERN.test\(String\(value || ''\)\)\) return false;) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 502.39999999999924 Td (  19 |   const parsed = new Date\(`${value}T00:00:00.000Z`\);) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 490.19999999999925 Td (  20 |   return !Number.isNaN\(parsed.getTime\(\)\) && parsed.toISOString\(\).slice\(0, 10\) === value;) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 477.99999999999926 Td (  21 | }) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 465.7999999999993 Td (  22 | ) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 453.5999999999993 Td (  23 | export function addUtcDays\(date, amount\) {) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 441.3999999999993 Td (  24 |   const parsed = new Date\(`${date}T00:00:00.000Z`\);) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 429.1999999999993 Td (  25 |   parsed.setUTCDate\(parsed.getUTCDate\(\) + amount\);) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 416.9999999999993 Td (  26 |   return parsed.toISOString\(\).slice\(0, 10\);) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 404.79999999999933 Td (  27 | }) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 392.59999999999934 Td (  28 | ) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 380.39999999999935 Td (  29 | export function inclusiveDayCount\(from, to\) {) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 368.19999999999936 Td (  30 |   const start = new Date\(`${from}T00:00:00.000Z`\);) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 355.9999999999994 Td (  31 |   const end = new Date\(`${to}T00:00:00.000Z`\);) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 343.7999999999994 Td (  32 |   return Math.floor\(\(end - start\) / 86400000\) + 1;) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 331.5999999999994 Td (  33 | }) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 319.3999999999994 Td (  34 | ) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 307.1999999999994 Td (  35 | function slotIso\(date, time\) {) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 294.99999999999943 Td (  36 |   return new Date\(`${date}T${String\(time\).slice\(0, 8\)}Z`\).toISOString\(\);) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 282.79999999999944 Td (  37 | }) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 270.59999999999945 Td (  38 | ) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 258.39999999999947 Td (  39 | function overlaps\(start, end, busyStart, busyEnd\) {) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 246.19999999999948 Td (  40 |   return start < busyEnd && end > busyStart;) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 233.9999999999995 Td (  41 | }) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 221.7999999999995 Td (  42 | ) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 209.5999999999995 Td (  43 | function clinicianDirectoryRecord\(clinician\) {) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 197.39999999999952 Td (  44 |   return {) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 185.19999999999953 Td (  45 |     profile_id: clinician.profile_id,) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 172.99999999999955 Td (  46 |     professional_title: clinician.professional_title,) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 160.79999999999956 Td (  47 |     specialization: clinician.specialization,) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 148.59999999999957 Td (  48 |     biography: clinician.biography,) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 136.39999999999958 Td (  49 |     years_of_experience: clinician.years_of_experience,) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 124.19999999999958 Td (  50 |     consultation_duration: clinician.consultation_duration,) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 111.99999999999957 Td (  51 |     profile_image: clinician.profile_image,) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 99.79999999999957 Td (  52 |     is_accepting_patients: clinician.is_accepting_patients,) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 87.59999999999957 Td (  53 |     profiles: clinician.profiles,) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 75.39999999999957 Td (  54 |   };) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 63.19999999999956 Td (  55 | }) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 50.99999999999956 Td (  56 | ) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 38.79999999999956 Td (  57 | export async function eligibleClinicians\(req, requestedId, options = {}\) {) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 26.599999999999557 Td (  58 |   const requirePatientGender = options.requirePatientGender ?? false;) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 14.399999999999558 Td (  59 |   const patientGender = req.auth.profile.role === 'patient') Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 2.1999999999995588 Td (  60 |     ? req.auth.profile.gender) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -10.00000000000044 Td (  61 |     : null;) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -22.20000000000044 Td (  62 | ) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -34.40000000000044 Td (  63 |   if \(req.auth.profile.role === 'patient' && !patientGender\) {) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -46.600000000000435 Td (  64 |     if \(requirePatientGender\) {) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -58.80000000000044 Td (  65 |       throw apiError\('Add your gender to your profile before booking an appointment', 409\);) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -71.00000000000044 Td (  66 |     }) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -83.20000000000044 Td (  67 |     return [];) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -95.40000000000045 Td (  68 |   }) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -107.60000000000045 Td (  69 | ) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -119.80000000000045 Td (  70 |   let query = req.db) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -132.00000000000045 Td (  71 |     .from\('physiotherapists'\)) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -144.20000000000044 Td (  72 |     .select\('profile_id,professional_title,specialization,biography,years_of_experience,consultati) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -156.40000000000043 Td (  73 |     .eq\('is_accepting_patients', true\)) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -168.60000000000042 Td (  74 |     .eq\('profiles.is_active', true\);) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -180.8000000000004 Td (  75 | ) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -193.0000000000004 Td (  76 |   if \(requestedId\) query = query.eq\('profile_id', requestedId\);) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -205.2000000000004 Td (  77 |   if \(patientGender === 'female'\) query = query.eq\('profiles.gender', 'female'\);) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -217.40000000000038 Td (  78 | ) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -229.60000000000036 Td (  79 |   const { data, error } = await query;) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -241.80000000000035 Td (  80 |   if \(error\) throw error;) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -254.00000000000034 Td (  81 |   return \(data || []\).map\(clinicianDirectoryRecord\);) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -266.20000000000033 Td (  82 | }) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -278.4000000000003 Td (  83 | ) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -290.6000000000003 Td (  84 | export async function clinicianSlots\(db, clinicians, from, to, options = {}\) {) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -302.8000000000003 Td (  85 |   if \(!clinicians.length\) return [];) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -315.0000000000003 Td (  86 | ) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -327.2000000000003 Td (  87 |   const clinicianIds = clinicians.map\(\(clinician\) => clinician.profile_id\);) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -339.40000000000026 Td (  88 |   const rangeStart = `${from}T00:00:00.000Z`;) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -351.60000000000025 Td (  89 |   const rangeEnd = `${addUtcDays\(to, 1\)}T00:00:00.000Z`;) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -363.80000000000024 Td (  90 | ) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -376.0000000000002 Td (  91 |   let appointmentsQuery = db) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -388.2000000000002 Td (  92 |     .from\('appointments'\)) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -400.4000000000002 Td (  93 |     .select\('id,physiotherapist_id,starts_at,ends_at'\)) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -412.6000000000002 Td (  94 |     .in\('physiotherapist_id', clinicianIds\)) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -424.8000000000002 Td (  95 |     .in\('status', ACTIVE_APPOINTMENT_STATUSES\)) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -437.00000000000017 Td (  96 |     .lt\('starts_at', rangeEnd\)) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -449.20000000000016 Td (  97 |     .gt\('ends_at', rangeStart\);) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -461.40000000000015 Td (  98 |   if \(options.excludeAppointmentId\) {) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -473.60000000000014 Td (  99 |     appointmentsQuery = appointmentsQuery.neq\('id', options.excludeAppointmentId\);) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -485.8000000000001 Td ( 100 |   }) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -498.0000000000001 Td ( 101 | ) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -510.2000000000001 Td ( 102 |   const [hoursResult, appointmentsResult, timeOffResult] = await Promise.all\([) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -522.4000000000001 Td ( 103 |     db) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -534.6000000000001 Td ( 104 |       .from\('physiotherapist_working_hours'\)) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -546.8000000000002 Td ( 105 |       .select\('physiotherapist_id,day_of_week,start_time,end_time,slot_duration_minutes'\)) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -559.0000000000002 Td ( 106 |       .in\('physiotherapist_id', clinicianIds\)) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -571.2000000000003 Td ( 107 |       .eq\('is_active', true\),) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -583.4000000000003 Td ( 108 |     appointmentsQuery,) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -595.6000000000004 Td ( 109 |     db) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -607.8000000000004 Td ( 110 |       .from\('physiotherapist_time_off'\)) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -620.0000000000005 Td ( 111 |       .select\('physiotherapist_id,start_datetime,end_datetime'\)) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -632.2000000000005 Td ( 112 |       .in\('physiotherapist_id', clinicianIds\)) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -644.4000000000005 Td ( 113 |       .lt\('start_datetime', rangeEnd\)) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -656.6000000000006 Td ( 114 |       .gt\('end_datetime', rangeStart\),) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -668.8000000000006 Td ( 115 |   ]\);) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -681.0000000000007 Td ( 116 | ) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -693.2000000000007 Td ( 117 |   for \(const result of [hoursResult, appointmentsResult, timeOffResult]\) {) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -705.4000000000008 Td ( 118 |     if \(result.error\) throw result.error;) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -717.6000000000008 Td ( 119 |   }) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -729.8000000000009 Td ( 120 | ) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -742.0000000000009 Td ( 121 |   const hoursByClinician = new Map\(\);) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -754.200000000001 Td ( 122 |   const busyByClinician = new Map\(\);) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -766.400000000001 Td ( 123 |   for \(const id of clinicianIds\) {) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -778.600000000001 Td ( 124 |     hoursByClinician.set\(id, []\);) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -790.8000000000011 Td ( 125 |     busyByClinician.set\(id, []\);) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -803.0000000000011 Td ( 126 |   }) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -815.2000000000012 Td ( 127 |   for \(const period of hoursResult.data || []\) {) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -827.4000000000012 Td ( 128 |     hoursByClinician.get\(period.physiotherapist_id\)?.push\(period\);) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -839.6000000000013 Td ( 129 |   }) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -851.8000000000013 Td ( 130 |   for \(const appointment of appointmentsResult.data || []\) {) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -864.0000000000014 Td ( 131 |     busyByClinician.get\(appointment.physiotherapist_id\)?.push\([) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -876.2000000000014 Td ( 132 |       new Date\(appointment.starts_at\),) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -888.4000000000015 Td ( 133 |       new Date\(appointment.ends_at\),) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -900.6000000000015 Td ( 134 |     ]\);) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -912.8000000000015 Td ( 135 |   }) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -925.0000000000016 Td ( 136 |   for \(const exception of timeOffResult.data || []\) {) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -937.2000000000016 Td ( 137 |     busyByClinician.get\(exception.physiotherapist_id\)?.push\([) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -949.4000000000017 Td ( 138 |       new Date\(exception.start_datetime\),) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -961.6000000000017 Td ( 139 |       new Date\(exception.end_datetime\),) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -973.8000000000018 Td ( 140 |     ]\);) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -986.0000000000018 Td ( 141 |   }) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -998.2000000000019 Td ( 142 | ) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -1010.4000000000019 Td ( 143 |   const now = options.now ? new Date\(options.now\) : new Date\(\);) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -1022.600000000002 Td ( 144 |   const slots = [];) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -1034.800000000002 Td ( 145 |   for \(const clinician of clinicians\) {) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -1047.000000000002 Td ( 146 |     const periods = hoursByClinician.get\(clinician.profile_id\) || [];) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -1059.200000000002 Td ( 147 |     const busyPeriods = busyByClinician.get\(clinician.profile_id\) || [];) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -1071.4000000000021 Td ( 148 | ) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -1083.6000000000022 Td ( 149 |     for \(let date = from; date <= to; date = addUtcDays\(date, 1\)\) {) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -1095.8000000000022 Td ( 150 |       const weekday = WEEKDAYS[new Date\(`${date}T12:00:00.000Z`\).getUTCDay\(\)];) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -1108.0000000000023 Td ( 151 |       for \(const period of periods.filter\(\(item\) => item.day_of_week === weekday\)\) {) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -1120.2000000000023 Td ( 152 |         const duration = Number\(period.slot_duration_minutes\)) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -1132.4000000000024 Td ( 153 |           || Number\(clinician.consultation_duration\)) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -1144.6000000000024 Td ( 154 |           || 30;) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -1156.8000000000025 Td ( 155 |         let cursor = new Date\(slotIso\(date, period.start_time\)\);) Tj ET
+BT /F1 8 Tf 0.35 0.42 0.42 rg 48 30 Td (PhysioCare Clinic - Complete Project Explanation) Tj ET
+BT /F2 8 Tf 0.35 0.42 0.42 rg 535 30 Td (13) Tj ET
+endstream
+endobj
+29 0 obj
+<< /Type /Page /Parent 54 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 28 0 R >>
+endobj
+30 0 obj
+<< /Length 4362 >>
+stream
+0.04 0.43 0.38 rg 48 752 516 2 re f
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 724 Td (isIsoDate validates both shape and calendar reality. addUtcDays and inclusiveDayCount support) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 710.8 Td (bounded UTC ranges. eligibleClinicians joins clinician profiles, filters accepting clinicians) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 697.5999999999999 Td (and active profiles, and applies the female-patient rule. clinicianSlots fetches working) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 684.3999999999999 Td (hours, active appointments, and time-off in parallel; it builds per-clinician busy periods,) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 671.1999999999998 Td (emits future slots that fit completely in a period, removes overlaps, and sorts) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 657.9999999999998 Td (deterministically. groupSlotsByDay merges clinicians offering the same start time while) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 644.7999999999997 Td (retaining doctor_ids and available_doctor_count. shuffled is a Fisher-Yates copy operation) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 631.5999999999997 Td (used when any eligible clinician may be selected.) Tj ET
+BT /F2 13 Tf 0.08 0.29 0.29 rg 48 609.3999999999996 Td (Controller responsibilities) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 592.3999999999996 Td (adminController.js: Admin dashboard summaries, clinician CRUD/disable, patient management, assignments.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 579.6999999999996 Td (clinicController.js: Directory, availability, booking, reschedule/cancel, profile, recovery journey.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 566.9999999999995 Td (physiotherapistController.js: Clinician profile, working hours, time off, appointment transitions, patient lists.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 554.2999999999995 Td (medicalRecordController.js: Medical intake persistence, documents, signed URLs, authorized read-only record view.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 541.5999999999995 Td (clinicalAssessmentController.js: Assessment creation/update/reassessment, region selection, completion and clinician access.) Tj ET
+BT /F2 13 Tf 0.08 0.29 0.29 rg 48 518.8999999999994 Td (Assessment validation family) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 501.8999999999994 Td (clinicalAssessmentService owns metadata rules and the shoulder schema; dedicated services) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 488.6999999999994 Td (validate elbow, cervical, lumbar, wrist, hip, knee, and ankle payloads. The registry-style) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 475.49999999999943 Td (frontend modules mirror this backend split. Completed assessments require the defined sections) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 462.29999999999944 Td (and an affected side where the metadata rules demand it. Unknown fields, unsupported tests,) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 449.09999999999945 Td (invalid ranges, and oversized payloads are rejected before database writes.) Tj ET
+BT /F2 13 Tf 0.08 0.29 0.29 rg 48 426.89999999999947 Td (Medical documents) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 409.89999999999947 Td (medicalRecordRoutes configures Multer memoryStorage with one file and an 8 MB limit. The) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 396.6999999999995 Td (upload adapter converts Multer errors to 413 for oversized files or 400 for invalid uploads.) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 383.4999999999995 Td (The controller stores metadata and uses private Storage paths; documentUrl returns a signed) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 370.2999999999995 Td (URL rather than exposing a public bucket.) Tj ET
+BT /F2 18 Tf 0.04 0.43 0.38 rg 48 342.0999999999995 Td (7. Frontend: Routing, Auth, Data Fetching, and UI) Tj ET
+0.78 0.84 0.84 RG 0.7 w 48 320.0999999999995 m 564 320.0999999999995 l S
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 310.0999999999995 Td (The frontend is a route-driven React single-page application. Shared auth and services keep) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 296.8999999999995 Td (pages focused on presentation and user interaction.) Tj ET
+BT /F2 13 Tf 0.08 0.29 0.29 rg 48 274.69999999999953 Td (Route tree) Tj ET
+BT /F1 8 Tf 0.35 0.42 0.42 rg 48 30 Td (PhysioCare Clinic - Complete Project Explanation) Tj ET
+BT /F2 8 Tf 0.35 0.42 0.42 rg 535 30 Td (14) Tj ET
+endstream
+endobj
+31 0 obj
+<< /Type /Page /Parent 54 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 30 0 R >>
+endobj
+32 0 obj
+<< /Length 6780 >>
+stream
+0.04 0.43 0.38 rg 48 752 516 2 re f
+0.95 0.97 0.97 rg 44 210 524 518 re f
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 722 Td (   1 | import { Navigate, Route, Routes } from 'react-router-dom') Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 709.8 Td (   2 | import Home from './pages/Home.jsx') Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 697.5999999999999 Td (   3 | import SignIn from './pages/auth/SignIn.jsx') Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 685.3999999999999 Td (   4 | import Register from './pages/auth/Register.jsx') Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 673.1999999999998 Td (   5 | import ConnectionTest from './pages/ConnectionTest.jsx') Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 660.9999999999998 Td (   6 | import PatientDashboard from './pages/dashboards/PatientDashboard.jsx') Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 648.7999999999997 Td (   7 | import PhysiotherapistDashboard from './pages/dashboards/PhysiotherapistDashboard.jsx') Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 636.5999999999997 Td (   8 | import AdminDashboard from './pages/dashboards/AdminDashboard.jsx') Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 624.3999999999996 Td (   9 | import MedicalIntake from './pages/medical/MedicalIntake.jsx') Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 612.1999999999996 Td (  10 | import MedicalRecordViewer from './pages/medical/MedicalRecordViewer.jsx') Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 599.9999999999995 Td (  11 | import PatientClinicalProfile from './pages/clinical/PatientClinicalProfile.jsx') Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 587.7999999999995 Td (  12 | import ShoulderAssessment from './features/clinical-assessments/shoulder/ShoulderAssessment.jsx') Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 575.5999999999995 Td (  13 | import ElbowAssessment from './features/clinical-assessments/elbow/ElbowAssessment.jsx') Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 563.3999999999994 Td (  14 | import NeckAssessment from './features/clinical-assessments/neck/NeckAssessment.jsx') Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 551.1999999999994 Td (  15 | import LumbarAssessment from './features/clinical-assessments/lumbar/LumbarAssessment.jsx') Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 538.9999999999993 Td (  16 | import WristAssessment from './features/clinical-assessments/wrist/WristAssessment.jsx') Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 526.7999999999993 Td (  17 | import HipAssessment from './features/clinical-assessments/hip/HipAssessment.jsx') Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 514.5999999999992 Td (  18 | import KneeAssessment from './features/clinical-assessments/knee/KneeAssessment.jsx') Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 502.39999999999924 Td (  19 | import AnkleAssessment from './features/clinical-assessments/ankle/AnkleAssessment.jsx') Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 490.19999999999925 Td (  20 | import RoleRoute from './components/RoleRoute.jsx') Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 477.99999999999926 Td (  21 | import './pages/dashboards/Dashboard.css') Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 465.7999999999993 Td (  22 | ) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 453.5999999999993 Td (  23 | function App\(\) {) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 441.3999999999993 Td (  24 |   return \() Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 429.1999999999993 Td (  25 |     <Routes>) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 416.9999999999993 Td (  26 |       <Route path="/" element={<Home />} />) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 404.79999999999933 Td (  27 |       <Route path="/signin" element={<SignIn />} />) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 392.59999999999934 Td (  28 |       <Route path="/register" element={<Register />} />) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 380.39999999999935 Td (  29 |       <Route path="/connection-test" element={<ConnectionTest />} />) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 368.19999999999936 Td (  30 |       <Route path="/patient/dashboard" element={<RoleRoute allowedRoles={['patient']}><PatientDash) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 355.9999999999994 Td (  31 |       <Route path="/patient/medical-profile" element={<RoleRoute allowedRoles={['patient']}><Medic) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 343.7999999999994 Td (  32 |       <Route path="/medical-records/patient/:patientId" element={<RoleRoute allowedRoles={['physio) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 331.5999999999994 Td (  33 |       <Route path="/physiotherapist/patients/:patientId" element={<RoleRoute allowedRoles={['physi) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 319.3999999999994 Td (  34 |       <Route path="/physiotherapist/patients/:patientId/assessments/elbow/:assessmentId" element={) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 307.1999999999994 Td (  35 |       <Route path="/physiotherapist/patients/:patientId/assessments/cervical/:assessmentId" elemen) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 294.99999999999943 Td (  36 |       <Route path="/physiotherapist/patients/:patientId/assessments/lumbar/:assessmentId" element=) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 282.79999999999944 Td (  37 |       <Route path="/physiotherapist/patients/:patientId/assessments/wrist/:assessmentId" element={) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 270.59999999999945 Td (  38 |       <Route path="/physiotherapist/patients/:patientId/assessments/hip/:assessmentId" element={<R) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 258.39999999999947 Td (  39 |       <Route path="/physiotherapist/patients/:patientId/assessments/knee/:assessmentId" element={<) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 246.19999999999948 Td (  40 |       <Route path="/physiotherapist/patients/:patientId/assessments/ankle/:assessmentId" element={) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 233.9999999999995 Td (  41 |       <Route path="/physiotherapist/patients/:patientId/assessments/:assessmentId" element={<RoleR) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 221.7999999999995 Td (  42 |       <Route) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 202.5999999999995 Td (Public pages are Home, SignIn, Register, and ConnectionTest. RoleRoute wraps patient,) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 189.39999999999952 Td (physiotherapist, and admin pages. Assessment routes include a generic shoulder fallback plus) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 176.19999999999953 Td (explicit elbow, cervical, lumbar, wrist, hip, knee, and ankle paths. A wildcard redirects) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 162.99999999999955 Td (unknown URLs to Home.) Tj ET
+BT /F2 13 Tf 0.08 0.29 0.29 rg 48 140.79999999999956 Td (AuthProvider state machine) Tj ET
+BT /F1 8 Tf 0.35 0.42 0.42 rg 48 30 Td (PhysioCare Clinic - Complete Project Explanation) Tj ET
+BT /F2 8 Tf 0.35 0.42 0.42 rg 535 30 Td (15) Tj ET
+endstream
+endobj
+33 0 obj
+<< /Type /Page /Parent 54 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 32 0 R >>
+endobj
+34 0 obj
+<< /Length 12994 >>
+stream
+0.04 0.43 0.38 rg 48 752 516 2 re f
+0.95 0.97 0.97 rg 44 -798 524 1526 re f
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 722 Td (   1 | import {) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 709.8 Td (   2 |   useCallback,) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 697.5999999999999 Td (   3 |   useEffect,) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 685.3999999999999 Td (   4 |   useMemo,) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 673.1999999999998 Td (   5 |   useRef,) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 660.9999999999998 Td (   6 |   useState,) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 648.7999999999997 Td (   7 | } from 'react') Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 636.5999999999997 Td (   8 | import AuthContext from './context.js') Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 624.3999999999996 Td (   9 | import api from '../services/api.js') Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 612.1999999999996 Td (  10 | import {) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 599.9999999999995 Td (  11 |   getSupabaseClient,) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 587.7999999999995 Td (  12 |   migrateLegacySession,) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 575.5999999999995 Td (  13 |   setAuthSessionSnapshot,) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 563.3999999999994 Td (  14 | } from '../services/supabase.js') Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 551.1999999999994 Td (  15 | ) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 538.9999999999993 Td (  16 | function readCachedProfile\(userId\) {) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 526.7999999999993 Td (  17 |   try {) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 514.5999999999992 Td (  18 |     const cached = JSON.parse\(localStorage.getItem\('user_profile'\) || 'null'\)) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 502.39999999999924 Td (  19 |     return cached?.id === userId && cached?.role ? cached : null) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 490.19999999999925 Td (  20 |   } catch {) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 477.99999999999926 Td (  21 |     return null) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 465.7999999999993 Td (  22 |   }) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 453.5999999999993 Td (  23 | }) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 441.3999999999993 Td (  24 | ) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 429.1999999999993 Td (  25 | export function AuthProvider\({ children }\) {) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 416.9999999999993 Td (  26 |   const [session, setSession] = useState\(null\)) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 404.79999999999933 Td (  27 |   const [user, setUser] = useState\(null\)) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 392.59999999999934 Td (  28 |   const [profile, setProfile] = useState\(null\)) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 380.39999999999935 Td (  29 |   const [loading, setLoading] = useState\(true\)) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 368.19999999999936 Td (  30 |   const profileRef = useRef\(null\)) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 355.9999999999994 Td (  31 |   const syncVersionRef = useRef\(0\)) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 343.7999999999994 Td (  32 | ) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 331.5999999999994 Td (  33 |   const storeProfile = useCallback\(\(nextProfile\) => {) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 319.3999999999994 Td (  34 |     profileRef.current = nextProfile || null) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 307.1999999999994 Td (  35 |     setProfile\(nextProfile || null\)) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 294.99999999999943 Td (  36 |     if \(nextProfile\) localStorage.setItem\('user_profile', JSON.stringify\(nextProfile\)\)) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 282.79999999999944 Td (  37 |     else localStorage.removeItem\('user_profile'\)) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 270.59999999999945 Td (  38 |   }, []\)) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 258.39999999999947 Td (  39 | ) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 246.19999999999948 Td (  40 |   const syncSession = useCallback\(async \(nextSession, suppliedProfile = null\) => {) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 233.9999999999995 Td (  41 |     const syncVersion = ++syncVersionRef.current) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 221.7999999999995 Td (  42 |     setAuthSessionSnapshot\(nextSession\)) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 209.5999999999995 Td (  43 |     setSession\(nextSession || null\)) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 197.39999999999952 Td (  44 |     setUser\(nextSession?.user || null\)) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 185.19999999999953 Td (  45 | ) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 172.99999999999955 Td (  46 |     if \(!nextSession?.user\) {) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 160.79999999999956 Td (  47 |       storeProfile\(null\)) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 148.59999999999957 Td (  48 |       setLoading\(false\)) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 136.39999999999958 Td (  49 |       return) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 124.19999999999958 Td (  50 |     }) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 111.99999999999957 Td (  51 | ) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 99.79999999999957 Td (  52 |     let nextProfile = suppliedProfile) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 87.59999999999957 Td (  53 |     if \(!nextProfile && profileRef.current?.id === nextSession.user.id\) {) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 75.39999999999957 Td (  54 |       nextProfile = profileRef.current) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 63.19999999999956 Td (  55 |     }) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 50.99999999999956 Td (  56 | ) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 38.79999999999956 Td (  57 |     if \(!nextProfile\) {) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 26.599999999999557 Td (  58 |       try {) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 14.399999999999558 Td (  59 |         const response = await api.get\('/profile/me'\)) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 2.1999999999995588 Td (  60 |         nextProfile = response.data.data) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -10.00000000000044 Td (  61 |       } catch {) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -22.20000000000044 Td (  62 |         nextProfile = readCachedProfile\(nextSession.user.id\)) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -34.40000000000044 Td (  63 |       }) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -46.600000000000435 Td (  64 |     }) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -58.80000000000044 Td (  65 | ) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -71.00000000000044 Td (  66 |     if \(syncVersion !== syncVersionRef.current\) return) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -83.20000000000044 Td (  67 |     storeProfile\(nextProfile\)) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -95.40000000000045 Td (  68 |     setLoading\(false\)) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -107.60000000000045 Td (  69 |   }, [storeProfile]\)) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -119.80000000000045 Td (  70 | ) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -132.00000000000045 Td (  71 |   useEffect\(\(\) => {) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -144.20000000000044 Td (  72 |     let active = true) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -156.40000000000043 Td (  73 |     let subscription) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -168.60000000000042 Td (  74 | ) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -180.8000000000004 Td (  75 |     async function initializeAuth\(\) {) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -193.0000000000004 Td (  76 |       try {) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -205.2000000000004 Td (  77 |         const client = await getSupabaseClient\(\)) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -217.40000000000038 Td (  78 |         const { data } = await client.auth.getSession\(\)) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -229.60000000000036 Td (  79 |         const restoredSession = await migrateLegacySession\(client, data.session\)) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -241.80000000000035 Td (  80 |         if \(!active\) return) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -254.00000000000034 Td (  81 |         await syncSession\(restoredSession\)) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -266.20000000000033 Td (  82 | ) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -278.4000000000003 Td (  83 |         const listener = client.auth.onAuthStateChange\(\(_event, nextSession\) => {) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -290.6000000000003 Td (  84 |           window.setTimeout\(\(\) => {) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -302.8000000000003 Td (  85 |             if \(active\) void syncSession\(nextSession\)) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -315.0000000000003 Td (  86 |           }, 0\)) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -327.2000000000003 Td (  87 |         }\)) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -339.40000000000026 Td (  88 |         subscription = listener.data.subscription) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -351.60000000000025 Td (  89 |       } catch {) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -363.80000000000024 Td (  90 |         if \(active\) {) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -376.0000000000002 Td (  91 |           setAuthSessionSnapshot\(null\)) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -388.2000000000002 Td (  92 |           setLoading\(false\)) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -400.4000000000002 Td (  93 |         }) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -412.6000000000002 Td (  94 |       }) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -424.8000000000002 Td (  95 |     }) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -437.00000000000017 Td (  96 | ) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -449.20000000000016 Td (  97 |     void initializeAuth\(\)) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -461.40000000000015 Td (  98 |     return \(\) => {) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -473.60000000000014 Td (  99 |       active = false) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -485.8000000000001 Td ( 100 |       subscription?.unsubscribe\(\)) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -498.0000000000001 Td ( 101 |     }) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -510.2000000000001 Td ( 102 |   }, [syncSession]\)) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -522.4000000000001 Td ( 103 | ) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -534.6000000000001 Td ( 104 |   const establishSession = useCallback\(async \(nextSession, nextProfile\) => {) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -546.8000000000002 Td ( 105 |     const client = await getSupabaseClient\(\)) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -559.0000000000002 Td ( 106 |     const { data, error } = await client.auth.setSession\({) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -571.2000000000003 Td ( 107 |       access_token: nextSession.access_token,) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -583.4000000000003 Td ( 108 |       refresh_token: nextSession.refresh_token,) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -595.6000000000004 Td ( 109 |     }\)) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -607.8000000000004 Td ( 110 |     if \(error || !data.session\) throw error || new Error\('Unable to persist session'\)) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -620.0000000000005 Td ( 111 |     await syncSession\(data.session, nextProfile\)) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -632.2000000000005 Td ( 112 |     return data.session) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -644.4000000000005 Td ( 113 |   }, [syncSession]\)) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -656.6000000000006 Td ( 114 | ) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -668.8000000000006 Td ( 115 |   const signOut = useCallback\(async \(\) => {) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -681.0000000000007 Td ( 116 |     try {) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -693.2000000000007 Td ( 117 |       const client = await getSupabaseClient\(\)) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -705.4000000000008 Td ( 118 |       await client.auth.signOut\(\)) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -717.6000000000008 Td ( 119 |     } finally {) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -729.8000000000009 Td ( 120 |       await syncSession\(null\)) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -742.0000000000009 Td ( 121 |     }) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -754.200000000001 Td ( 122 |   }, [syncSession]\)) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -766.400000000001 Td ( 123 | ) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -778.600000000001 Td ( 124 |   const refreshProfile = useCallback\(async \(\) => {) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -790.8000000000011 Td ( 125 |     if \(!session\) return null) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 -803.0000000000011 Td ( 126 |     const response = await api.get\('/profile/me'\)) Tj ET
+BT /F1 8 Tf 0.35 0.42 0.42 rg 48 30 Td (PhysioCare Clinic - Complete Project Explanation) Tj ET
+BT /F2 8 Tf 0.35 0.42 0.42 rg 535 30 Td (16) Tj ET
+endstream
+endobj
+35 0 obj
+<< /Type /Page /Parent 54 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 34 0 R >>
+endobj
+36 0 obj
+<< /Length 5597 >>
+stream
+0.04 0.43 0.38 rg 48 752 516 2 re f
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 724 Td (AuthProvider owns session, user, profile, and loading state. initializeAuth loads the public) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 710.8 Td (Supabase configuration, restores an existing session, bridges the legacy storage key once, and) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 697.5999999999999 Td (subscribes to Supabase auth changes. syncSession updates the token snapshot, loads /profile/me) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 684.3999999999999 Td (when needed, guards against stale async responses with syncVersionRef, and persists a safe) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 671.1999999999998 Td (profile cache. establishSession calls Supabase setSession after the backend sign-in response.) Tj ET
+BT /F2 13 Tf 0.08 0.29 0.29 rg 48 648.9999999999998 Td (Axios and API URL normalization) Tj ET
+0.95 0.97 0.97 rg 44 141.99999999999977 524 494 re f
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 629.9999999999998 Td (   1 | import axios from 'axios') Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 617.7999999999997 Td (   2 | import { getAuthAccessToken, getSupabaseClient } from './supabase.js') Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 605.5999999999997 Td (   3 | ) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 593.3999999999996 Td (   4 | const configuredUrl = import.meta.env.VITE_API_URL || 'http://localhost:5000') Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 581.1999999999996 Td (   5 | const normalizedUrl = configuredUrl.replace\(/\\/$/, ''\)) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 568.9999999999995 Td (   6 | const API_URL = normalizedUrl.endsWith\('/api'\)) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 556.7999999999995 Td (   7 |   ? normalizedUrl) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 544.5999999999995 Td (   8 |   : `${normalizedUrl}/api`) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 532.3999999999994 Td (   9 | ) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 520.1999999999994 Td (  10 | const api = axios.create\({) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 507.9999999999994 Td (  11 |   baseURL: API_URL,) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 495.7999999999994 Td (  12 |   headers: {) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 483.5999999999994 Td (  13 |     'Content-Type': 'application/json',) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 471.3999999999994 Td (  14 |   },) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 459.1999999999994 Td (  15 | }\)) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 446.99999999999943 Td (  16 | ) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 434.79999999999944 Td (  17 | api.interceptors.request.use\(\(config\) => {) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 422.59999999999945 Td (  18 |   const accessToken = getAuthAccessToken\(\)) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 410.39999999999947 Td (  19 |   if \(accessToken\) config.headers.Authorization = `Bearer ${accessToken}`) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 398.1999999999995 Td (  20 |   return config) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 385.9999999999995 Td (  21 | }\)) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 373.7999999999995 Td (  22 | ) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 361.5999999999995 Td (  23 | api.interceptors.response.use\() Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 349.3999999999995 Td (  24 |   \(response\) => response,) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 337.19999999999953 Td (  25 |   \(error\) => {) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 324.99999999999955 Td (  26 |     if \(error.response?.status === 401 && !error.config?.url?.includes\('/auth/'\)\) {) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 312.79999999999956 Td (  27 |       localStorage.removeItem\('user_profile'\)) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 300.59999999999957 Td (  28 |       void getSupabaseClient\(\).then\(\(client\) => client.auth.signOut\(\)\)) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 288.3999999999996 Td (  29 |     }) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 276.1999999999996 Td (  30 |     return Promise.reject\(error\)) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 263.9999999999996 Td (  31 |   },) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 251.7999999999996 Td (  32 | \)) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 239.59999999999962 Td (  33 | ) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 227.39999999999964 Td (  34 | export async function testBackendConnection\(\) {) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 215.19999999999965 Td (  35 |   const response = await api.get\('/test'\)) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 202.99999999999966 Td (  36 |   return response.data) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 190.79999999999967 Td (  37 | }) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 178.59999999999968 Td (  38 | ) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 166.3999999999997 Td (  39 | export default api) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 154.1999999999997 Td (  40 | ) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 134.99999999999972 Td (The API service accepts either http://localhost:5000 or a full /api URL and normalizes it to) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 121.79999999999971 Td (exactly one /api suffix. The interceptor adds the current access token and clears cached auth) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 108.59999999999971 Td (after protected 401 responses. testBackendConnection powers the sign-in database status) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 95.39999999999971 Td (banner.) Tj ET
+BT /F1 8 Tf 0.35 0.42 0.42 rg 48 30 Td (PhysioCare Clinic - Complete Project Explanation) Tj ET
+BT /F2 8 Tf 0.35 0.42 0.42 rg 535 30 Td (17) Tj ET
+endstream
+endobj
+37 0 obj
+<< /Type /Page /Parent 54 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 36 0 R >>
+endobj
+38 0 obj
+<< /Length 5476 >>
+stream
+0.04 0.43 0.38 rg 48 752 516 2 re f
+BT /F2 13 Tf 0.08 0.29 0.29 rg 48 718 Td (UI organization) Tj ET
+BT /F1 9.1 Tf 0.12 0.18 0.20 rg 48 701 Td (- components/ contains reusable Brand, LanguageSwitcher, BookingInstructions, RoleRoute,) Tj ET
+BT /F1 9.1 Tf 0.12 0.18 0.20 rg 48 687.9 Td (  and assessment controls.) Tj ET
+BT /F1 9.1 Tf 0.12 0.18 0.20 rg 48 674.8 Td (- pages/auth handles sign-in and registration; pages/dashboards contains three role) Tj ET
+BT /F1 9.1 Tf 0.12 0.18 0.20 rg 48 661.6999999999999 Td (  dashboards, layout, recovery, and session evaluation.) Tj ET
+BT /F1 9.1 Tf 0.12 0.18 0.20 rg 48 648.5999999999999 Td (- pages/medical contains the multi-step intake, body chart, pain-area picker, and) Tj ET
+BT /F1 9.1 Tf 0.12 0.18 0.20 rg 48 635.4999999999999 Td (  read-only medical viewer.) Tj ET
+BT /F1 9.1 Tf 0.12 0.18 0.20 rg 48 622.3999999999999 Td (- features/clinical-assessments uses one folder per body region with data defaults,) Tj ET
+BT /F1 9.1 Tf 0.12 0.18 0.20 rg 48 609.2999999999998 Td (  labels/config, sections, and a shared control vocabulary.) Tj ET
+BT /F1 9.1 Tf 0.12 0.18 0.20 rg 48 596.1999999999998 Td (- i18n/locales/en and i18n/locales/ar keep UI copy separate from logic and sync document) Tj ET
+BT /F1 9.1 Tf 0.12 0.18 0.20 rg 48 583.0999999999998 Td (  direction/language.) Tj ET
+BT /F2 13 Tf 0.08 0.29 0.29 rg 48 560.9999999999998 Td (Sign-in event flow) Tj ET
+0.95 0.97 0.97 rg 44 437.9999999999998 524 110 re f
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 541.9999999999998 Td (submit form) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 529.7999999999997 Td (  -> handleSubmit prevents browser navigation) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 517.5999999999997 Td (  -> setLoading\(true\), disable inputs) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 505.3999999999997 Td (  -> api.post\(/auth/signin, normalized email + password\)) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 493.1999999999997 Td (  -> map HTTP/message to a translation key) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 480.9999999999997 Td (  -> establishSession\(session, profile\)) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 468.7999999999997 Td (  -> navigate by profile.role) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 456.59999999999974 Td (  -> finally setLoading\(false\)) Tj ET
+BT /F2 18 Tf 0.04 0.43 0.38 rg 48 425.39999999999975 Td (8. Clinical Assessment Feature Family) Tj ET
+0.78 0.84 0.84 RG 0.7 w 48 403.39999999999975 m 564 403.39999999999975 l S
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 393.39999999999975 Td (Clinical assessments are deliberately modeled as region-specific schemas rather than one) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 380.19999999999976 Td (unrestricted JSON form. This gives each body region its own vocabulary while preserving a) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 366.9999999999998 Td (common lifecycle.) Tj ET
+BT /F2 13 Tf 0.08 0.29 0.29 rg 48 344.7999999999998 Td (Shared lifecycle) Tj ET
+0.95 0.97 0.97 rg 44 209.79999999999978 524 122 re f
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 325.7999999999998 Td (Clinician opens patient profile) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 313.5999999999998 Td (  -> POST assessment metadata \(region/type/version\)) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 301.3999999999998 Td (  -> backend verifies assignment/appointment access) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 289.1999999999998 Td (  -> frontend loads region data defaults) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 276.99999999999983 Td (  -> section components update nested state) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 264.79999999999984 Td (  -> PATCH draft with affected_side and assessment_data) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 252.59999999999985 Td (  -> optional autosave after debounce) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 240.39999999999986 Td (  -> final completion validates every required section) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 228.19999999999987 Td (  -> reassessment creates parent-linked record) Tj ET
+BT /F2 13 Tf 0.08 0.29 0.29 rg 48 202.9999999999999 Td (Region coverage found in source) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 185.9999999999999 Td (Shoulder: Nine structured sections: observation, palpation, articular, muscular, neurological, functional, special tests, reasoning, outcome.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 173.2999999999999 Td (Elbow: Physical, strength, neurological, and final sections with targeted tests and ranges.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 160.5999999999999 Td (Cervical: Thirteen-section schema with neurological/radicular safety findings and pathways.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 147.89999999999992 Td (Lumbar: Twelve sections with pathways, tests, red flags, measurements, and completion rules.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 135.19999999999993 Td (Wrist: Physical, muscular, neurological, functional, special tests, and final sections.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 122.49999999999993 Td (Hip, knee, ankle: Dedicated data/config/section modules; backend validates bounded nested shapes and payload size.) Tj ET
+BT /F2 13 Tf 0.08 0.29 0.29 rg 48 99.79999999999993 Td (Why the shared controls matter) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 82.79999999999993 Td (AssessmentControls centralizes bilingual labels, choice buttons, checkboxes, notes, number) Tj ET
+BT /F1 8 Tf 0.35 0.42 0.42 rg 48 30 Td (PhysioCare Clinic - Complete Project Explanation) Tj ET
+BT /F2 8 Tf 0.35 0.42 0.42 rg 535 30 Td (18) Tj ET
+endstream
+endobj
+39 0 obj
+<< /Type /Page /Parent 54 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 38 0 R >>
+endobj
+40 0 obj
+<< /Length 5603 >>
+stream
+0.04 0.43 0.38 rg 48 752 516 2 re f
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 724 Td (fields, finding cards, and section intros. A section component describes the clinical fields;) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 710.8 Td (the controls standardize input behavior and visual language. This lowers duplication while) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 697.5999999999999 Td (preserving region-specific data keys.) Tj ET
+BT /F2 13 Tf 0.08 0.29 0.29 rg 48 675.3999999999999 Td (Clinical safety boundaries) Tj ET
+BT /F1 9.1 Tf 0.12 0.18 0.20 rg 48 658.3999999999999 Td (- The backend validates ranges and known selections but does not generate a diagnosis.) Tj ET
+BT /F1 9.1 Tf 0.12 0.18 0.20 rg 48 645.2999999999998 Td (- Role and ownership checks happen before a clinician can read or mutate a patient) Tj ET
+BT /F1 9.1 Tf 0.12 0.18 0.20 rg 48 632.1999999999998 Td (  assessment.) Tj ET
+BT /F1 9.1 Tf 0.12 0.18 0.20 rg 48 619.0999999999998 Td (- Final submission requires red-flag answers and complete required sections where the) Tj ET
+BT /F1 9.1 Tf 0.12 0.18 0.20 rg 48 605.9999999999998 Td (  region service defines them.) Tj ET
+BT /F1 9.1 Tf 0.12 0.18 0.20 rg 48 592.8999999999997 Td (- Reassessment preserves parent_assessment_id so progress can be compared without) Tj ET
+BT /F1 9.1 Tf 0.12 0.18 0.20 rg 48 579.7999999999997 Td (  overwriting history.) Tj ET
+BT /F2 18 Tf 0.04 0.43 0.38 rg 48 551.6999999999997 Td (9. Database and Migrations) Tj ET
+0.78 0.84 0.84 RG 0.7 w 48 529.6999999999997 m 564 529.6999999999997 l S
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 519.6999999999997 Td (Supabase PostgreSQL is the system of record. The migration filenames form a chronological) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 506.4999999999997 Td (contract: run them in order in the Supabase SQL editor or migration workflow.) Tj ET
+BT /F2 13 Tf 0.08 0.29 0.29 rg 48 484.2999999999997 Td (Migration sequence) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 467.2999999999997 Td (202607210001: profiles: identity, role, active state, gender, self-service RLS.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 454.59999999999974 Td (202607220001: physiotherapists, assignments, working hours, time off, appointments, status history, policies/functions.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 441.89999999999975 Td (202607220002: single administrator reconciliation.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 429.19999999999976 Td (202607220003: physiotherapist schema reconciliation.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 416.4999999999998 Td (202607230001: gender-aware directory and booking policies.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 403.7999999999998 Td (202608050001: medical profiles, surgeries, medications, documents, versions, private Storage policies.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 391.0999999999998 Td (202608150001: session evaluations and supporting indexes/policies.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 378.3999999999998 Td (202608150002: clinical assessments, parent links, region/type/version, access policies.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 365.6999999999998 Td (202608180001-003: elbow, cervical, lumbar clinical assessment support.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 352.99999999999983 Td (202608220001-004: wrist, hip/pelvis, knee/thigh, ankle/foot/toes support.) Tj ET
+BT /F2 13 Tf 0.08 0.29 0.29 rg 48 330.29999999999984 Td (Core relationships) Tj ET
+0.95 0.97 0.97 rg 44 183.29999999999984 524 134 re f
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 311.29999999999984 Td (auth.users 1 --- 1 profiles) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 299.09999999999985 Td (profiles 1 --- 0..1 physiotherapists) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 286.89999999999986 Td (profiles\(patient\) 1 --- many appointments) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 274.6999999999999 Td (profiles\(physio\) 1 --- many appointments) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 262.4999999999999 Td (patient <-> physiotherapist through assignments) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 250.2999999999999 Td (physiotherapist 1 --- many working_hours / time_off) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 238.0999999999999 Td (appointment 1 --- many status_history / evaluations) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 225.89999999999992 Td (patient 1 --- 1 medical_profile --- many surgeries, medications, documents, versions) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 213.69999999999993 Td (patient + clinician + appointment --- many clinical_assessments) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 201.49999999999994 Td (clinical_assessment 1 --- many reassessments via parent_assessment_id) Tj ET
+BT /F2 13 Tf 0.08 0.29 0.29 rg 48 176.29999999999995 Td (RLS and server-side defense in depth) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 159.29999999999995 Td (Policies scope profile reads, clinician visibility, assignments, appointment participants,) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 146.09999999999997 Td (medical records, documents, evaluations, and assessments. The backend adds a second layer by) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 132.89999999999998 Td (authenticating the bearer token, loading the active profile with the service client, applying) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 119.69999999999997 Td (role middleware, and constraining controller queries by ownership or assignment. A service key) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 106.49999999999997 Td (is never placed in the frontend.) Tj ET
+BT /F1 8 Tf 0.35 0.42 0.42 rg 48 30 Td (PhysioCare Clinic - Complete Project Explanation) Tj ET
+BT /F2 8 Tf 0.35 0.42 0.42 rg 535 30 Td (19) Tj ET
+endstream
+endobj
+41 0 obj
+<< /Type /Page /Parent 54 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 40 0 R >>
+endobj
+42 0 obj
+<< /Length 5701 >>
+stream
+0.04 0.43 0.38 rg 48 752 516 2 re f
+BT /F2 13 Tf 0.08 0.29 0.29 rg 48 718 Td (Representative SQL contract) Tj ET
+0.95 0.97 0.97 rg 44 355 524 350 re f
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 699 Td (from auth.users u) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 686.8 Td (where p.id = u.id) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 674.5999999999999 Td (  and lower\(u.email\) = 'omarmassoud27076@gmail.com';) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 662.3999999999999 Td () Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 650.1999999999998 Td (create table if not exists public.physiotherapists \() Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 637.9999999999998 Td (  id uuid primary key default gen_random_uuid\(\),) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 625.7999999999997 Td (  profile_id uuid not null unique references public.profiles\(id\) on delete restrict,) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 613.5999999999997 Td (  professional_title text not null,) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 601.3999999999996 Td (  license_number text not null unique,) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 589.1999999999996 Td (  specialization text not null,) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 576.9999999999995 Td (  biography text not null default '',) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 564.7999999999995 Td (  years_of_experience integer not null default 0 check \(years_of_experience >= 0\),) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 552.5999999999995 Td (  consultation_duration integer not null default 30 check \(consultation_duration > 0\),) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 540.3999999999994 Td (  profile_image text,) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 528.1999999999994 Td (  is_accepting_patients boolean not null default true,) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 515.9999999999993 Td (  created_at timestamptz not null default now\(\),) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 503.79999999999933 Td (  updated_at timestamptz not null default now\(\)) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 491.59999999999934 Td (\);) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 479.39999999999935 Td () Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 467.19999999999936 Td (-- Compatibility for projects that already had an older physiotherapists table.) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 454.9999999999994 Td (alter table public.physiotherapists) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 442.7999999999994 Td (  add column if not exists consultation_duration integer not null default 30) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 430.5999999999994 Td (    check \(consultation_duration > 0\),) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 418.3999999999994 Td (  add column if not exists profile_image text;) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 406.1999999999994 Td () Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 393.99999999999943 Td (create table if not exists public.patient_physiotherapist_assignments \() Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 381.79999999999944 Td (  id uuid primary key default gen_random_uuid\(\),) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 369.59999999999945 Td (  patient_id uuid not null references public.profiles\(id\) on delete restrict,) Tj ET
+BT /F2 18 Tf 0.04 0.43 0.38 rg 48 338.39999999999947 Td (10. API Endpoint Catalogue) Tj ET
+0.78 0.84 0.84 RG 0.7 w 48 316.39999999999947 m 564 316.39999999999947 l S
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 306.39999999999947 Td (The following map is derived from the route modules. Protected endpoints require) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 293.1999999999995 Td (Authorization: Bearer <access token>; role restrictions are shown where present.) Tj ET
+BT /F2 13 Tf 0.08 0.29 0.29 rg 48 270.9999999999995 Td (Authentication and health) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 253.9999999999995 Td (GET /api/auth/config: Public Supabase URL/publishable key for frontend initialization.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 241.2999999999995 Td (POST /api/auth/signin: Email/password -> session and profile; 401 invalid credentials, 403 unconfirmed, 503 missing DB setup.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 228.5999999999995 Td (POST /api/auth/signup: Creates patient Auth/profile data; validates name, gender, email, password.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 215.89999999999952 Td (GET /api/test: Supabase connectivity probe; returns database.connected or 503.) Tj ET
+BT /F2 13 Tf 0.08 0.29 0.29 rg 48 193.19999999999953 Td (Patient and clinic operations) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 176.19999999999953 Td (GET /api/physiotherapists: Authenticated clinician directory; gender-aware filtering.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 163.49999999999955 Td (GET /api/physiotherapists/:id: One directory record.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 150.79999999999956 Td (GET /api/physiotherapists/:id/available-slots: Computed future slots for a clinician.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 138.09999999999957 Td (GET /api/appointments/availability: Patient calendar grouped by day.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 125.39999999999957 Td (POST /api/appointments: Patient books a slot; race/conflict checks return 409.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 112.69999999999956 Td (GET /api/appointments/my: Patient appointments.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 99.99999999999956 Td (GET /api/appointments/recovery: Patient recovery journey data.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 87.29999999999956 Td (PATCH /api/appointments/:id/cancel: Patient cancels own appointment.) Tj ET
+BT /F1 8 Tf 0.35 0.42 0.42 rg 48 30 Td (PhysioCare Clinic - Complete Project Explanation) Tj ET
+BT /F2 8 Tf 0.35 0.42 0.42 rg 535 30 Td (20) Tj ET
+endstream
+endobj
+43 0 obj
+<< /Type /Page /Parent 54 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 42 0 R >>
+endobj
+44 0 obj
+<< /Length 5837 >>
+stream
+0.04 0.43 0.38 rg 48 752 516 2 re f
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 724 Td (PATCH /api/appointments/:id/reschedule: Patient reschedules with availability checks.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 711.3 Td (GET/PATCH /api/profile/me: Authenticated user profile read/update.) Tj ET
+BT /F2 13 Tf 0.08 0.29 0.29 rg 48 688.5999999999999 Td (Physiotherapist operations) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 671.5999999999999 Td (GET/PATCH /api/physiotherapist/me: Clinician professional profile.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 658.8999999999999 Td (GET/POST/PATCH/DELETE /api/physiotherapist/availability...: Working hours CRUD.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 646.1999999999998 Td (GET/POST/DELETE /api/physiotherapist/time-off...: Time-off CRUD.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 633.4999999999998 Td (GET /api/physiotherapist/appointments: Clinician appointments.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 620.7999999999997 Td (PATCH /api/physiotherapist/appointments/:id/status: Pending -> confirmed -> status transitions.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 608.0999999999997 Td (POST /api/physiotherapist/appointments/:id/complete: Completes with evaluation workflow.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 595.3999999999996 Td (GET /api/physiotherapist/patients...: Assigned/booked patient access and clinical profile.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 582.6999999999996 Td (POST/PATCH/GET .../assessments: Create, update, retrieve, and reassess region assessments.) Tj ET
+BT /F2 13 Tf 0.08 0.29 0.29 rg 48 559.9999999999995 Td (Admin and medical records) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 542.9999999999995 Td (GET/POST/PATCH/DELETE /api/admin/*: Admin dashboard, clinician/patient CRUD, assignments and disables.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 530.2999999999995 Td (GET/PUT /api/medical-records/me: Patient medical intake read/save.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 517.5999999999995 Td (POST /api/medical-records/documents: Patient upload; one file, 8 MB maximum.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 504.89999999999947 Td (DELETE /api/medical-records/documents/:id: Patient removes own document.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 492.1999999999995 Td (GET /api/medical-records/documents/:id/url: Signed private document URL.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 479.4999999999995 Td (GET /api/medical-records/patient/:patientId: Assigned clinician/admin read-only medical record.) Tj ET
+BT /F2 18 Tf 0.04 0.43 0.38 rg 48 450.7999999999995 Td (11. Security, Validation, and Error Handling) Tj ET
+0.78 0.84 0.84 RG 0.7 w 48 428.7999999999995 m 564 428.7999999999995 l S
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 418.7999999999995 Td (The code treats clinical data and role boundaries as security-sensitive. Validation is) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 405.5999999999995 Td (performed at multiple boundaries so a friendly browser form is not the only defense.) Tj ET
+BT /F2 13 Tf 0.08 0.29 0.29 rg 48 383.3999999999995 Td (Authentication and authorization) Tj ET
+BT /F1 9.1 Tf 0.12 0.18 0.20 rg 48 366.3999999999995 Td (- The frontend keeps a Supabase session and sends its access token through Axios.) Tj ET
+BT /F1 9.1 Tf 0.12 0.18 0.20 rg 48 353.2999999999995 Td (- requireAuth verifies the token with Supabase Auth and reloads the active profile) Tj ET
+BT /F1 9.1 Tf 0.12 0.18 0.20 rg 48 340.1999999999995 Td (  server-side.) Tj ET
+BT /F1 9.1 Tf 0.12 0.18 0.20 rg 48 327.09999999999945 Td (- requireRole prevents a valid patient from calling admin or clinician routers.) Tj ET
+BT /F1 9.1 Tf 0.12 0.18 0.20 rg 48 313.99999999999943 Td (- Controllers constrain resources by patient_id, physiotherapist_id, assignment, or) Tj ET
+BT /F1 9.1 Tf 0.12 0.18 0.20 rg 48 300.8999999999994 Td (  appointment participation.) Tj ET
+BT /F1 9.1 Tf 0.12 0.18 0.20 rg 48 287.7999999999994 Td (- Supabase RLS remains an independent database-level isolation layer.) Tj ET
+BT /F2 13 Tf 0.08 0.29 0.29 rg 48 265.69999999999936 Td (Validation patterns) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 248.69999999999936 Td (required/pick: Prevent missing fields and mass assignment.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 235.99999999999937 Td (apiError/sendError: Preserve status and structured errors at the HTTP boundary.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 223.2999999999994 Td (Assessment knownKeys: Reject unknown JSON keys and unsupported tests.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 210.5999999999994 Td (Range/enum checks: Reject impossible pain, strength, ROM, dates, and selections.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 197.8999999999994 Td (Multer limits: Reject oversized or malformed document uploads.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 185.19999999999942 Td (UTC slot math: Avoid local-time ambiguity for booking overlaps.) Tj ET
+BT /F2 13 Tf 0.08 0.29 0.29 rg 48 162.49999999999943 Td (Failure behavior users can observe) Tj ET
+BT /F1 9.1 Tf 0.12 0.18 0.20 rg 48 145.49999999999943 Td (- Network/config failure: sign-in and registration show a service/network translation key.) Tj ET
+BT /F1 9.1 Tf 0.12 0.18 0.20 rg 48 132.39999999999944 Td (- 401: token/session or credentials are invalid; protected cached profile is cleared by) Tj ET
+BT /F1 9.1 Tf 0.12 0.18 0.20 rg 48 119.29999999999944 Td (  Axios.) Tj ET
+BT /F1 9.1 Tf 0.12 0.18 0.20 rg 48 106.19999999999945 Td (- 403: authenticated role or account is not authorized/active.) Tj ET
+BT /F1 9.1 Tf 0.12 0.18 0.20 rg 48 93.09999999999945 Td (- 409: booking conflict, duplicate assignment, missing gender prerequisite, or race) Tj ET
+BT /F1 9.1 Tf 0.12 0.18 0.20 rg 48 79.99999999999946 Td (  condition.) Tj ET
+BT /F1 8 Tf 0.35 0.42 0.42 rg 48 30 Td (PhysioCare Clinic - Complete Project Explanation) Tj ET
+BT /F2 8 Tf 0.35 0.42 0.42 rg 535 30 Td (21) Tj ET
+endstream
+endobj
+45 0 obj
+<< /Type /Page /Parent 54 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 44 0 R >>
+endobj
+46 0 obj
+<< /Length 6115 >>
+stream
+0.04 0.43 0.38 rg 48 752 516 2 re f
+BT /F1 9.1 Tf 0.12 0.18 0.20 rg 48 724 Td (- 503: Supabase/database schema is unavailable or required migration is missing.) Tj ET
+BT /F1 9.1 Tf 0.12 0.18 0.20 rg 48 710.9 Td (- 404: unknown API route or concealed resource ownership.) Tj ET
+BT /F2 13 Tf 0.08 0.29 0.29 rg 48 688.8 Td (Important security note) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 671.8 Td (Never commit backend/.env, especially SUPABASE_SECRET_KEY or a service-role key. The) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 658.5999999999999 Td (repository ignores both .env files. If a secret is exposed in a message, screenshot, commit,) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 645.3999999999999 Td (or log, rotate it in Supabase and update only the local ignored file.) Tj ET
+BT /F2 18 Tf 0.04 0.43 0.38 rg 48 617.1999999999998 Td (12. Testing and Quality Checks) Tj ET
+0.78 0.84 0.84 RG 0.7 w 48 595.1999999999998 m 564 595.1999999999998 l S
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 585.1999999999998 Td (The repository includes behavior-focused backend tests and small frontend data tests. The) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 571.9999999999998 Td (commands below are the checks documented in README.md and executed during this analysis.) Tj ET
+BT /F2 13 Tf 0.08 0.29 0.29 rg 48 549.7999999999997 Td (Backend tests) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 532.7999999999997 Td (availabilityService.test.js: Dates, aligned slots, booked periods, grouping, shuffling, gender filtering, race retry.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 520.0999999999997 Td (bookingController.test.js: Medical profile prerequisite and concurrent booking conflict behavior.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 507.3999999999997 Td (clinicalAssessmentAuthorization.test.js: Assignment/appointment access and patient isolation.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 494.6999999999997 Td (clinicalAssessmentService.test.js: Shoulder metadata/data schemas, ranges, completion rules, safety fields.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 481.9999999999997 Td (elbow/lumbar/neckAssessmentService.test.js: Region schemas, pathways, tests, ranges, complete sections.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 469.2999999999997 Td (medicalRecordController.test.js: Medical record mapping, BMI, age, red flags, durations.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 456.59999999999974 Td (sessionEvaluationController.test.js: Metrics, integer/range validation, notes and comparisons.) Tj ET
+BT /F2 13 Tf 0.08 0.29 0.29 rg 48 433.89999999999975 Td (Frontend tests and commands) Tj ET
+0.95 0.97 0.97 rg 44 370.89999999999975 524 50 re f
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 414.89999999999975 Td (npm test --prefix backend) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 402.69999999999976 Td (npm run build --prefix frontend) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 390.4999999999998 Td (npm run lint --prefix frontend) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 371.2999999999998 Td (The build validates Vite module resolution and production bundling. Oxlint catches unused) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 358.0999999999998 Td (variables and other static issues. Tests isolate deterministic domain rules without requiring) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 344.8999999999998 Td (a browser login. A true end-to-end login test needs a valid Supabase account and should be run) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 331.6999999999998 Td (deliberately, never with credentials copied into logs.) Tj ET
+BT /F2 18 Tf 0.04 0.43 0.38 rg 48 303.49999999999983 Td (13. Important Programming Concepts) Tj ET
+0.78 0.84 0.84 RG 0.7 w 48 281.49999999999983 m 564 281.49999999999983 l S
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 271.49999999999983 Td (These are the concepts a student should be able to explain with a concrete file from this) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 258.29999999999984 Td (project.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 242.09999999999985 Td (ES modules: import/export connect server, services, routes, and React modules; package.json sets type=module.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 229.39999999999986 Td (Async/await: Supabase and Axios calls return Promises; try/catch/finally controls loading and failures.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 216.69999999999987 Td (React components: Functions such as SignIn, dashboards, assessment sections, and shared controls return UI.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 203.9999999999999 Td (Props/state: Pages receive route/context data; useState stores form, loading, error, step, and domain state.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 191.2999999999999 Td (Hooks: useEffect starts initialization/fetches, useCallback stabilizes handlers, useMemo derives values, useRef tracks async versions.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 178.5999999999999 Td (REST: HTTP verbs express read/create/update/delete semantics under /api routes.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 165.89999999999992 Td (Middleware: Express functions authenticate, authorize, parse, or transform requests before controllers.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 153.19999999999993 Td (CRUD: Admin, profile, availability, time-off, appointments, records, documents, and assessments all have CRUD-like flows.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 140.49999999999994 Td (RLS: PostgreSQL policies evaluate auth.uid\(\) and role/access functions for row-level isolation.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 127.79999999999994 Td (Whitelisting: pick and knownKeys accept only explicit fields, limiting accidental or malicious updates.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 115.09999999999994 Td (Debounced autosave: assessment pages delay draft PATCH calls and use refs to prevent overlapping saves.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 102.39999999999993 Td (Internationalization: i18next keys supply English/Arabic labels and the document direction is synchronized.) Tj ET
+BT /F1 8 Tf 0.35 0.42 0.42 rg 48 30 Td (PhysioCare Clinic - Complete Project Explanation) Tj ET
+BT /F2 8 Tf 0.35 0.42 0.42 rg 535 30 Td (22) Tj ET
+endstream
+endobj
+47 0 obj
+<< /Type /Page /Parent 54 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 46 0 R >>
+endobj
+48 0 obj
+<< /Length 5830 >>
+stream
+0.04 0.43 0.38 rg 48 752 516 2 re f
+BT /F2 13 Tf 0.08 0.29 0.29 rg 48 718 Td (Representative line-by-line explanation) Tj ET
+0.95 0.97 0.97 rg 44 679 524 26 re f
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 699 Td (const app = express\(\);) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 679.8 Td (const declares a binding that is not reassigned. express is the imported factory function.) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 666.5999999999999 Td (Calling express\(\) creates the application object that owns middleware, routes, and the HTTP) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 653.3999999999999 Td (request pipeline. Later app.use, app.get, and app.listen calls all operate on this object.) Tj ET
+0.95 0.97 0.97 rg 44 615.1999999999998 524 26 re f
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 635.1999999999998 Td (const response = await api.post\('/auth/signin', { email, password }\);) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 615.9999999999998 Td (const stores the eventual Axios response. await pauses this async handler until the Promise) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 602.7999999999997 Td (resolves or rejects. api.post selects HTTP POST because credentials are submitted to create a) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 589.5999999999997 Td (session rather than retrieve a public resource. The object becomes JSON in the request body; a) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 576.3999999999996 Td (rejected Promise enters catch and maps to a translated user message.) Tj ET
+0.95 0.97 0.97 rg 44 538.1999999999996 524 26 re f
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 558.1999999999996 Td (if \(!token\) return res.status\(401\).json\({ success: false, message: 'Authentication required' }\);) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 538.9999999999995 Td (The guard checks the boundary before any database work. status\(401\) communicates that) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 525.7999999999995 Td (authentication is missing, json sends a machine-readable response, and return stops execution) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 512.5999999999995 Td (so next middleware cannot run without a token.) Tj ET
+BT /F2 18 Tf 0.04 0.43 0.38 rg 48 484.39999999999947 Td (14. Project Defense Questions and Answers) Tj ET
+0.78 0.84 0.84 RG 0.7 w 48 462.39999999999947 m 564 462.39999999999947 l S
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 452.39999999999947 Td (Use these answers as speaking prompts. They are tied to actual files and behavior, while) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 439.1999999999995 Td (inferred motivations are framed as engineering rationale.) Tj ET
+BT /F2 10.5 Tf 0.08 0.29 0.29 rg 48 416.9999999999995 Td (Question: Why use both a public Supabase client and an admin client?) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 402.4999999999995 Td (Answer: The public client is appropriate for user-authenticated Auth operations. The) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 389.2999999999995 Td (admin/service client is backend-only and lets requireAuth reload profiles and controllers) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 376.0999999999995 Td (perform controlled server operations. Keeping the secret out of the browser limits exposure.) Tj ET
+BT /F2 10.5 Tf 0.08 0.29 0.29 rg 48 353.8999999999995 Td (Question: Why is the profile reloaded after validating a token?) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 339.3999999999995 Td (Answer: A JWT alone may contain stale role or active-state assumptions. requireAuth queries) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 326.19999999999953 Td (profiles and checks is_active, so authorization uses current database state.) Tj ET
+BT /F2 10.5 Tf 0.08 0.29 0.29 rg 48 303.99999999999955 Td (Question: Why are booking slots calculated in a service?) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 289.49999999999955 Td (Answer: Slot generation combines hours, appointments, time-off, UTC dates, durations, and) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 276.29999999999956 Td (overlaps. Keeping it in availabilityService makes the rule reusable and directly testable.) Tj ET
+BT /F2 10.5 Tf 0.08 0.29 0.29 rg 48 254.09999999999957 Td (Question: How is a double booking prevented?) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 239.59999999999957 Td (Answer: The controller computes eligibility and handles the database conflict/race path; tests) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 226.39999999999958 Td (explicitly cover a slot lost to a concurrent booking and return a clear 409 response.) Tj ET
+BT /F2 10.5 Tf 0.08 0.29 0.29 rg 48 204.1999999999996 Td (Question: Why does the frontend have one folder per assessment region?) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 189.6999999999996 Td (Answer: Regions have different fields and clinical tests. Separate data/config/sections) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 176.4999999999996 Td (prevent a single permissive form from accepting invalid region vocabulary while shared) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 163.2999999999996 Td (controls keep the UI consistent.) Tj ET
+BT /F2 10.5 Tf 0.08 0.29 0.29 rg 48 141.09999999999962 Td (Question: Why use PATCH for drafts?) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 126.59999999999962 Td (Answer: PATCH represents partial modification. Assessment pages autosave drafts and update) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 113.39999999999962 Td (only the current aggregate without pretending to replace an unrelated resource.) Tj ET
+BT /F2 10.5 Tf 0.08 0.29 0.29 rg 48 91.19999999999962 Td (Question: How are patients prevented from seeing other patients?) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 76.69999999999962 Td (Answer: Backend ownership checks, role middleware, clinician assignment/appointment checks,) Tj ET
+BT /F1 8 Tf 0.35 0.42 0.42 rg 48 30 Td (PhysioCare Clinic - Complete Project Explanation) Tj ET
+BT /F2 8 Tf 0.35 0.42 0.42 rg 535 30 Td (23) Tj ET
+endstream
+endobj
+49 0 obj
+<< /Type /Page /Parent 54 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 48 0 R >>
+endobj
+50 0 obj
+<< /Length 5771 >>
+stream
+0.04 0.43 0.38 rg 48 752 516 2 re f
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 724 Td (and Supabase RLS all constrain reads. Tests assert concealment of unrelated profiles.) Tj ET
+BT /F2 10.5 Tf 0.08 0.29 0.29 rg 48 701.8 Td (Question: Why are files uploaded through memoryStorage?) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 687.3 Td (Answer: The route enforces a single 8 MB file and the controller can validate/store bytes) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 674.0999999999999 Td (through Supabase private Storage without creating a public filesystem directory.) Tj ET
+BT /F2 10.5 Tf 0.08 0.29 0.29 rg 48 651.8999999999999 Td (Question: What happens if a migration is missing?) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 637.3999999999999 Td (Answer: Profile lookup or health queries return a schema error; controllers convert it to a) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 624.1999999999998 Td (503 message instructing the operator to run migrations.) Tj ET
+BT /F2 10.5 Tf 0.08 0.29 0.29 rg 48 601.9999999999998 Td (Question: Why does the frontend use an AuthProvider?) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 587.4999999999998 Td (Answer: Many routes need the same session/profile/loading state. A provider avoids prop) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 574.2999999999997 Td (drilling and lets RoleRoute consistently gate dashboards.) Tj ET
+BT /F2 10.5 Tf 0.08 0.29 0.29 rg 48 552.0999999999997 Td (Question: What would you improve for production?) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 537.5999999999997 Td (Answer: Add structured logging/observability, automated migration deployment, stronger) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 524.3999999999996 Td (integration tests, rate limiting, secret rotation procedures, bundle code-splitting, and a) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 511.19999999999965 Td (centralized error boundary. These are recommendations, not current claims.) Tj ET
+BT /F2 18 Tf 0.04 0.43 0.38 rg 48 482.99999999999966 Td (15. How to Rebuild This Project From Scratch) Tj ET
+0.78 0.84 0.84 RG 0.7 w 48 460.99999999999966 m 564 460.99999999999966 l S
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 450.99999999999966 Td (Memorize the dependency order, then implement one vertical slice before expanding to every) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 437.79999999999967 Td (role and body region.) Tj ET
+0.95 0.97 0.97 rg 44 207.59999999999968 524 218 re f
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 419.5999999999997 Td (1. Initialize root package and workspace scripts.) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 407.3999999999997 Td (2. Create backend package and install Express, Supabase, dotenv, CORS, Multer, nodemon.) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 395.1999999999997 Td (3. Create frontend Vite package and install React Router, Axios, i18next, Supabase.) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 382.9999999999997 Td (4. Add ignored backend/.env and frontend/.env; never commit secrets.) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 370.7999999999997 Td (5. Apply migrations 202607210001 through 202608220004 in order.) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 358.59999999999974 Td (6. Implement Supabase config and server entry.) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 346.39999999999975 Td (7. Implement app middleware and health/auth routes.) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 334.19999999999976 Td (8. Implement requireAuth/requireRole and HTTP response helpers.) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 321.9999999999998 Td (9. Implement profile, clinician, scheduling, booking, and admin controllers/services.) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 309.7999999999998 Td (10. Implement medical records, private documents, evaluations, and assessment validators.) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 297.5999999999998 Td (11. Create React root, BrowserRouter, AuthProvider, API/Supabase services.) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 285.3999999999998 Td (12. Build public auth pages and RoleRoute-protected dashboards.) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 273.1999999999998 Td (13. Add medical intake/body chart and recovery flows.) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 260.99999999999983 Td (14. Add shared assessment controls and one region at a time.) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 248.79999999999984 Td (15. Connect forms to endpoints with loading/error/success states.) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 236.59999999999985 Td (16. Add bilingual translations, responsive CSS, and accessibility labels.) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 224.39999999999986 Td (17. Run backend tests, frontend build/lint, health checks, and manual role isolation checks.) Tj ET
+BT /F2 13 Tf 0.08 0.29 0.29 rg 48 199.19999999999987 Td (A practical vertical slice) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 182.19999999999987 Td (Start with profiles -> sign-up/sign-in -> profile/me -> one patient dashboard. Then add) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 168.9999999999999 Td (clinician directory -> availability -> booking. Add clinician appointment status ->) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 155.7999999999999 Td (evaluation. Add medical intake -> authorized clinical profile. Finally add each assessment) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 142.5999999999999 Td (region and admin management. This order follows the code dependencies and provides a working) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 129.39999999999992 Td (demonstration early.) Tj ET
+BT /F2 18 Tf 0.04 0.43 0.38 rg 48 101.19999999999992 Td (16. Final Architecture Summary) Tj ET
+0.78 0.84 0.84 RG 0.7 w 48 79.19999999999992 m 564 79.19999999999992 l S
+BT /F1 8 Tf 0.35 0.42 0.42 rg 48 30 Td (PhysioCare Clinic - Complete Project Explanation) Tj ET
+BT /F2 8 Tf 0.35 0.42 0.42 rg 535 30 Td (24) Tj ET
+endstream
+endobj
+51 0 obj
+<< /Type /Page /Parent 54 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 50 0 R >>
+endobj
+52 0 obj
+<< /Length 5590 >>
+stream
+0.04 0.43 0.38 rg 48 752 516 2 re f
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 724 Td (The complete system can be recalled as a set of stable boundaries.) Tj ET
+0.95 0.97 0.97 rg 44 469.79999999999995 524 242 re f
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 705.8 Td (Browser) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 693.5999999999999 Td (  React + React Router + i18next) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 681.3999999999999 Td (  AuthProvider / RoleRoute) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 669.1999999999998 Td (  Pages -> shared components -> Axios) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 656.9999999999998 Td (       | bearer token) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 644.7999999999997 Td (       v) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 632.5999999999997 Td (Express) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 620.3999999999996 Td (  CORS + parsers) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 608.1999999999996 Td (  Router -> requireAuth -> requireRole) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 595.9999999999995 Td (  Controller -> service -> Supabase client) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 583.7999999999995 Td (       | service key only on backend) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 571.5999999999995 Td (       v) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 559.3999999999994 Td (Supabase) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 547.1999999999994 Td (  Auth users) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 534.9999999999993 Td (  PostgreSQL profiles, clinic, records, evaluations, assessments) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 522.7999999999993 Td (  RLS policies + indexes + private Storage) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 510.5999999999993 Td (       | JSON / signed URLs) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 498.3999999999993 Td (       v) Tj ET
+BT /F3 8.2 Tf 0.10 0.24 0.25 rg 48 486.1999999999993 Td (UI state, dashboards, calendars, clinical forms) Tj ET
+BT /F1 9.1 Tf 0.12 0.18 0.20 rg 48 466.9999999999993 Td (- Starts at backend/src/server.js and frontend/src/main.jsx.) Tj ET
+BT /F1 9.1 Tf 0.12 0.18 0.20 rg 48 453.8999999999993 Td (- The backend exposes role-scoped REST endpoints under /api.) Tj ET
+BT /F1 9.1 Tf 0.12 0.18 0.20 rg 48 440.7999999999993 Td (- Supabase is both identity provider and PostgreSQL/Storage backend.) Tj ET
+BT /F1 9.1 Tf 0.12 0.18 0.20 rg 48 427.69999999999925 Td (- Scheduling is computed from working hours minus appointments/time-off in UTC.) Tj ET
+BT /F1 9.1 Tf 0.12 0.18 0.20 rg 48 414.5999999999992 Td (- Medical and clinical data is protected by server checks and RLS.) Tj ET
+BT /F1 9.1 Tf 0.12 0.18 0.20 rg 48 401.4999999999992 Td (- The frontend is bilingual, responsive, and organized by role and clinical region.) Tj ET
+BT /F1 9.1 Tf 0.12 0.18 0.20 rg 48 388.3999999999992 Td (- Tests encode date, booking, isolation, validation, evaluation, and medical-record) Tj ET
+BT /F1 9.1 Tf 0.12 0.18 0.20 rg 48 375.29999999999916 Td (  invariants.) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 359.19999999999914 Td (Presentation closing sentence: ?This project separates browser responsibilities, HTTP) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 345.99999999999915 Td (orchestration, domain rules, and database enforcement so that a patient-facing clinic workflow) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 332.79999999999916 Td (remains understandable, testable, and protected at every boundary.?) Tj ET
+BT /F2 18 Tf 0.04 0.43 0.38 rg 48 304.59999999999917 Td (Appendix: Important File Inventory) Tj ET
+0.78 0.84 0.84 RG 0.7 w 48 282.59999999999917 m 564 282.59999999999917 l S
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 272.59999999999917 Td (This appendix names the authored files found in the repository and gives each one a concise) Tj ET
+BT /F1 9.2 Tf 0.12 0.18 0.20 rg 48 259.3999999999992 Td (responsibility. It is intentionally compact; generated dependencies are excluded.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 243.1999999999992 Td (backend/src/server.js: Loads dotenv, dynamically imports the app, and listens on PORT.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 226.4999999999992 Td (backend/src/app.js: Creates Express app, CORS/body parsing, mounts routers, 404 response.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 209.79999999999922 Td (backend/src/config/supabase.js: Validates env and creates public/admin Supabase clients.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 193.09999999999923 Td (backend/src/middleware/requireAuth.js: Bearer token validation, profile reload, active account gate.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 176.39999999999924 Td (backend/src/middleware/requireRole.js: Allowed-role authorization middleware.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 159.69999999999925 Td (backend/src/utils/http.js: API errors, success/error envelopes, required and pick helpers.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 142.99999999999926 Td (backend/src/controllers/*.js: HTTP handlers for auth, admin, clinic, clinician, records, assessments.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 126.29999999999927 Td (backend/src/services/authService.js: Supabase sign-up/sign-in and profile fallback logic.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 109.59999999999927 Td (backend/src/services/availabilityService.js: UTC date validation, slot generation, grouping and shuffle.) Tj ET
+BT /F1 8.7 Tf 0.12 0.18 0.20 rg 48 92.89999999999927 Td (backend/src/services/*AssessmentService.js: Region-specific validation and schema boundaries.) Tj ET
+BT /F1 8 Tf 0.35 0.42 0.42 rg 48 30 Td (PhysioCare Clinic - Complete Project Explanation) Tj ET
+BT /F2 8 Tf 0.35 0.42 0.42 rg 535 30 Td (25) Tj ET
+endstream
+endobj
+53 0 obj
+<< /Type /Page /Parent 54 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 52 0 R >>
+endobj
+54 0 obj
+<< /Type /Pages /Count 25 /Kids [5 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R 19 0 R 21 0 R 23 0 R 25 0 R 27 0 R 29 0 R 31 0 R 33 0 R 35 0 R 37 0 R 39 0 R 41 0 R 43 0 R 45 0 R 47 0 R 49 0 R 51 0 R 53 0 R] >>
+endobj
+55 0 obj
+<< /Type /Catalog /Pages 54 0 R >>
+endobj
+xref
+0 56
+0000000000 65535 f 
+0000000015 00000 n 
+0000000085 00000 n 
+0000000160 00000 n 
+0000000228 00000 n 
+0000002291 00000 n 
+0000002438 00000 n 
+0000004501 00000 n 
+0000004648 00000 n 
+0000009863 00000 n 
+0000010010 00000 n 
+0000014240 00000 n 
+0000014389 00000 n 
+0000019487 00000 n 
+0000019636 00000 n 
+0000021847 00000 n 
+0000021996 00000 n 
+0000026495 00000 n 
+0000026644 00000 n 
+0000030774 00000 n 
+0000030923 00000 n 
+0000036501 00000 n 
+0000036650 00000 n 
+0000042004 00000 n 
+0000042153 00000 n 
+0000047966 00000 n 
+0000048115 00000 n 
+0000049799 00000 n 
+0000049948 00000 n 
+0000066945 00000 n 
+0000067094 00000 n 
+0000071509 00000 n 
+0000071658 00000 n 
+0000078491 00000 n 
+0000078640 00000 n 
+0000091688 00000 n 
+0000091837 00000 n 
+0000097487 00000 n 
+0000097636 00000 n 
+0000103165 00000 n 
+0000103314 00000 n 
+0000108970 00000 n 
+0000109119 00000 n 
+0000114873 00000 n 
+0000115022 00000 n 
+0000120912 00000 n 
+0000121061 00000 n 
+0000127229 00000 n 
+0000127378 00000 n 
+0000133261 00000 n 
+0000133410 00000 n 
+0000139234 00000 n 
+0000139383 00000 n 
+0000145026 00000 n 
+0000145175 00000 n 
+0000145400 00000 n 
+trailer
+<< /Size 56 /Root 55 0 R >>
+startxref
+145451
+%%EOF

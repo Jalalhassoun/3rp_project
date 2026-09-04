@@ -44,12 +44,17 @@
     "continue": "Continue Assessment",
     "view": "View Assessment",
     "reassess": "Reassess",
+    "startReassessment": "Start reassessment",
+    "continueReassessment": "Continue reassessment",
+    "viewReassessment": "View reassessment",
+    "legacyReassessments": "Earlier reassessments without a linked session",
     "noAssessment": "No clinical assessment recorded yet.",
     "lastSaved": "Last saved {{date}}",
     "lastAssessment": "Last assessment {{date}}",
     "draft": "Draft",
     "completedStatus": "Completed",
     "startError": "The assessment could not be started.",
+    "reassessmentError": "The session reassessment could not be opened.",
     "sessionsEmpty": "No sessions recorded for this treatment relationship.",
     "recoveryEmpty": "No evaluated session is available yet.",
     "performance": "Session performance",
@@ -132,6 +137,8 @@
     "complete": "Complete Assessment",
     "saveError": "The draft could not be saved. Your current answers remain on this screen.",
     "completeError": "The assessment could not be completed. Check the affected side and entered values.",
+    "sensoryFindingRequired": "Select at least one abnormal sensory finding for every marked dermatome.",
+    "reflexComparisonRequired": "Select exactly one comparison finding for every abnormal reflex.",
     "completed": "Assessment completed. This historical record is now read-only."
   }
 }

@@ -1,9 +1,13 @@
+import { cervicalSegments } from './neckConfig.js'
+
+const defaultSegmentalMobility=()=>Object.fromEntries(cervicalSegments.map((segment)=>[segment.key,'normal']))
+
 export function createNeckAssessmentData(){return{
   inspection:{staticFindings:[],dynamicFindings:[],notes:''},
   palpation:{locations:{},notes:''},
-  articular:{movements:{},movementQuality:[],endFeel:'',segmentalMobility:{},notes:''},
-  muscular:{mmt:{},deepNeckFlexor:'',muscleLength:[],muscleControl:[],notes:''},
-  neurological:{sensory:{},myotomes:{},reflexes:{},reflexComparison:'',notes:''},
+  articular:{movements:{},segmentalMobility:defaultSegmentalMobility(),notes:''},
+  muscular:{mmt:{},muscleLength:[],notes:''},
+  neurological:{sensory:{},sensoryFindings:[],myotomes:{},reflexes:{},reflexComparison:'',notes:''},
   radicular:{tests:{},notes:''},
   umnScreen:{tests:{},myelopathySymptoms:[],notes:''},
   vascularScreen:{indicated:null,symptoms:[],notes:''},
@@ -26,10 +30,31 @@ function mergeDefaults(defaults,saved){
 
 export function mergeNeckAssessmentData(saved={}){return mergeDefaults(createNeckAssessmentData(),saved)}
 
+function hasAbnormalSensorySide(finding={}){
+  return ['right','left'].some((side)=>finding[side]===true||(typeof finding[side]==='string'&&finding[side]!==''&&finding[side]!=='normal'))
+}
+
+function hasRecordedSensoryFinding(finding={}){
+  return Boolean(finding.findings?.length)||['right','left'].some((side)=>typeof finding[side]==='string'&&finding[side]!==''&&finding[side]!=='normal')
+}
+
+export function hasIncompleteSensoryFindings(data){
+  const legacyFindings=data?.neurological?.sensoryFindings||[]
+  return Object.values(data?.neurological?.sensory||{}).some((finding)=>hasAbnormalSensorySide(finding)&&!hasRecordedSensoryFinding(finding)&&legacyFindings.length===0)
+}
+
+export function hasIncompleteReflexComparisons(data){
+  return Object.values(data?.neurological?.reflexes||{}).some((finding)=>{
+    const abnormalSide=['right','left'].some((side)=>finding?.[side]!==''&&finding?.[side]!==null&&finding?.[side]!==undefined&&finding[side]!=='2+')
+    const comparisons=Array.isArray(finding?.comparison)?finding.comparison:finding?.comparison?[finding.comparison]:[]
+    return abnormalSide&&comparisons.length!==1
+  })
+}
+
 export function hasNeurologicalConcern(data){
-  const sensory=Object.values(data?.neurological?.sensory||{}).some((finding)=>['right','left'].some((side)=>finding?.[side]&&finding[side]!=='normal'))
+  const sensory=Boolean(data?.neurological?.sensoryFindings?.length)||Object.values(data?.neurological?.sensory||{}).some((finding)=>Boolean(finding?.findings?.length)||['right','left'].some((side)=>finding?.[side]&&finding[side]!=='normal'))
   const myotomes=Object.values(data?.neurological?.myotomes||{}).some((finding)=>['right','left'].some((side)=>finding?.[side]!==''&&finding?.[side]!==undefined&&Number(finding[side])<5))
-  const reflexes=Object.values(data?.neurological?.reflexes||{}).some((finding)=>['right','left'].some((side)=>finding?.[side]&&finding[side]!=='2+'))
+  const reflexes=Object.values(data?.neurological?.reflexes||{}).some((finding)=>{const comparisons=Array.isArray(finding?.comparison)?finding.comparison:finding?.comparison?[finding.comparison]:[];return comparisons.some((comparison)=>comparison!=='symmetrical')||['right','left'].some((side)=>finding?.[side]&&finding[side]!=='2+')})
   const radicular=Object.values(data?.radicular?.tests||{}).some((finding)=>finding?.result==='positive'||finding?.familiarSymptoms||finding?.sensitizerChange)
   const umn=Object.values(data?.umnScreen?.tests||{}).some((result)=>result==='positive'||result==='abnormal')
   const specialSafety=['spurling','ultt1','hoffmann','babinski','clonus','gait_balance','hand_dexterity'].some((key)=>['positive','abnormal'].includes(data?.specialTests?.tests?.[key]))

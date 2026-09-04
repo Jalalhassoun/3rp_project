@@ -7,7 +7,7 @@ const completeShape={
   palpation:{locations:{},notes:''},
   articular:{movements:{},movementQuality:[],endFeel:'',segmentalMobility:{},notes:''},
   muscular:{mmt:{},deepNeckFlexor:'',muscleLength:[],muscleControl:[],notes:''},
-  neurological:{sensory:{},myotomes:{},reflexes:{},reflexComparison:'',notes:''},
+  neurological:{sensory:{},sensoryFindings:[],myotomes:{},reflexes:{},reflexComparison:'',notes:''},
   radicular:{tests:{},notes:''},
   umnScreen:{tests:{},myelopathySymptoms:[],notes:''},
   vascularScreen:{indicated:null,symptoms:[],notes:''},
@@ -28,6 +28,43 @@ test('validates cervical clinical ranges',()=>{
   assert.throws(()=>validateNeckAssessmentData({...completeShape,articular:{...completeShape.articular,movements:{rotation_right:{arom:181,prom:90,pain:false,limitation:false}}}}),/between 0 and 180/);
   assert.throws(()=>validateNeckAssessmentData({...completeShape,outcomeMeasure:{...completeShape.outcomeMeasure,ndi:51}}),/between 0 and 50/);
   assert.throws(()=>validateNeckAssessmentData({...completeShape,outcomeMeasure:{...completeShape.outcomeMeasure,psfs:[{activity:'Driving',score:11}]}}),/between 0 and 10/);
+});
+
+test('accepts the limitation type and requires it for completed limited movements',()=>{
+  const limited={...completeShape,articular:{...completeShape.articular,movements:{flexion:{arom:40,prom:60,pain:false,limitation:true,limitationType:'arom'}}}};
+  assert.equal(validateNeckAssessmentData(limited,{completed:true}),limited);
+  assert.throws(()=>validateNeckAssessmentData({...limited,articular:{...limited.articular,movements:{flexion:{arom:40,prom:60,pain:false,limitation:true}}}},{completed:true}),/limitationType is required/);
+  assert.throws(()=>validateNeckAssessmentData({...limited,articular:{...limited.articular,movements:{flexion:{arom:40,prom:60,pain:false,limitation:true,limitationType:'invented'}}}}),/limitationType is invalid/);
+});
+
+test('accepts PDF-aligned dermatome side checks and sensory findings',()=>{
+  const data={...completeShape,neurological:{...completeShape.neurological,sensory:{c6:{right:true,left:false,findings:['paresthesia','hyperesthesia']}},sensoryFindings:[]}};
+  assert.equal(validateNeckAssessmentData(data),data);
+});
+
+test('requires an abnormal sensory finding for marked dermatomes only on completion',()=>{
+  const data={...completeShape,neurological:{...completeShape.neurological,sensory:{c6:{right:true,left:false,findings:[]}},sensoryFindings:[]}};
+  assert.doesNotThrow(()=>validateNeckAssessmentData(data));
+  assert.throws(()=>validateNeckAssessmentData(data,{completed:true}),/requires at least one abnormal sensory finding/);
+});
+
+test('accepts a comparison stored inside each reflex',()=>{
+  const data={...completeShape,neurological:{...completeShape.neurological,reflexes:{biceps_c5_6:{right:'2+',left:'2+',comparison:'symmetrical'},triceps_c7:{right:'3+',left:'2+',comparison:'hyperreflexia'}}}};
+  assert.equal(validateNeckAssessmentData(data),data);
+});
+
+test('requires exactly one comparison for an abnormal reflex on completion',()=>{
+  const missing={...completeShape,neurological:{...completeShape.neurological,reflexes:{biceps_c5_6:{right:'3+',left:'2+',comparison:''}}}};
+  assert.doesNotThrow(()=>validateNeckAssessmentData(missing));
+  assert.throws(()=>validateNeckAssessmentData(missing,{completed:true}),/requires exactly one finding/);
+  const multiple={...completeShape,neurological:{...completeShape.neurological,reflexes:{biceps_c5_6:{right:'3+',left:'2+',comparison:['hyporeflexia','hyperreflexia']}}}};
+  assert.doesNotThrow(()=>validateNeckAssessmentData(multiple));
+  assert.throws(()=>validateNeckAssessmentData(multiple,{completed:true}),/invalid selections/);
+});
+
+test('keeps legacy per-side sensory values valid for saved assessments',()=>{
+  const data={...completeShape,neurological:{...completeShape.neurological,sensory:{c6:{right:'paresthesia',left:'normal'}}}};
+  assert.equal(validateNeckAssessmentData(data),data);
 });
 
 test('accepts safety findings without generating a diagnosis',()=>{

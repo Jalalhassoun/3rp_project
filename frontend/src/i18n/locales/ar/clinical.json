@@ -44,12 +44,17 @@
     "continue": "متابعة التقييم",
     "view": "عرض التقييم",
     "reassess": "إعادة التقييم",
+    "startReassessment": "بدء إعادة التقييم",
+    "continueReassessment": "متابعة إعادة التقييم",
+    "viewReassessment": "عرض إعادة التقييم",
+    "legacyReassessments": "إعادات تقييم سابقة غير مرتبطة بجلسة",
     "noAssessment": "لم يتم تسجيل أي تقييم سريري بعد.",
     "lastSaved": "آخر حفظ {{date}}",
     "lastAssessment": "آخر تقييم {{date}}",
     "draft": "مسودة",
     "completedStatus": "مكتمل",
     "startError": "تعذّر بدء التقييم.",
+    "reassessmentError": "تعذّر فتح إعادة تقييم الجلسة.",
     "sessionsEmpty": "لا توجد جلسات مسجلة لهذه العلاقة العلاجية.",
     "recoveryEmpty": "لا توجد جلسة مقيّمة بعد.",
     "performance": "أداء الجلسة",
@@ -132,6 +137,8 @@
     "complete": "إنهاء التقييم",
     "saveError": "تعذّر حفظ المسودة. ستبقى إجاباتك الحالية ظاهرة على الشاشة.",
     "completeError": "تعذّر إنهاء التقييم. تحقق من الجهة المصابة والقيم المدخلة.",
+    "sensoryFindingRequired": "اختر نتيجة حسية غير طبيعية واحدة على الأقل لكل قطاع جلدي تم تحديده.",
+    "reflexComparisonRequired": "اختر نتيجة مقارنة واحدة فقط لكل منعكس غير طبيعي.",
     "completed": "اكتمل التقييم وأصبح هذا السجل التاريخي للقراءة فقط."
   }
 }
